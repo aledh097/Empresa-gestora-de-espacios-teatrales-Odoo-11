@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+
+		<!-- Form view -->
+
+		<record model="ir.ui.view" id="upoteatro_idioma_form">
+			<field name="name">idiomas</field>
+			<field name="model">upoteatro.idioma</field>
+			<field name="arch" type="xml">
+				<form string="Form of idioma">
+					<group string="Idiomas">
+						<field name="name" />
+						<field name="nivel" />
+						<field name="interpretes_ids" />
+					</group>
+				</form>
+			</field>
+		</record>
+		
+		<!-- Tree view -->
+
+		<record model="ir.ui.view" id="upoteatro_idioma_tree">
+			<field name="name">idioma</field>
+			<field name="model">upoteatro.idioma</field>
+			<field name="arch" type="xml">
+				<tree string="Tree of idioma">
+					<field name="name" />
+					<field name="nivel" />
+					<field name="interpretes_ids" />
+				</tree>
+			</field>
+		</record>
+
+		<record id="act_idioma" model="ir.actions.act_window">
+			<field name="name">Upoteatro Idioma</field>
+			<field name="res_model">upoteatro.idioma</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		<menuitem id="upoteatro" name="upoteatro" action="act_idioma" />
+		<menuitem name="Idioma" id="idioma_submenu" parent="upoteatro"
+			sequence="100" />
+		<menuitem name="Ver idioma" id="idioma_submenu_2"
+			parent="idioma_submenu" sequence="100" action="act_idioma" />
+	</data>
+</odoo> 

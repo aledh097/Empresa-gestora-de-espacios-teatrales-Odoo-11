@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+
+		<!-- Form view -->
+
+		<record model="ir.ui.view" id="upoteatro_obra_form">
+			<field name="name">Obras</field>
+			<field name="model">upoteatro.obra</field>
+			<field name="arch" type="xml">
+				<form string="Form of obra">
+					<group string="Obra">
+						<field name="name" />
+						<field name="autor" />
+					</group>
+					<group>
+						<field name="espectaculos_ids" />
+					</group>
+				</form>
+			</field>
+		</record>
+
+		<!-- Tree view -->
+
+		<record model="ir.ui.view" id="upoteatro_obra_tree">
+			<field name="name">Obras</field>
+			<field name="model">upoteatro.obra</field>
+			<field name="arch" type="xml">
+				<tree string="Tree of obra">
+					<field name="name" />
+					<field name="autor" />
+					<field name="espectaculos_ids" />
+				</tree>
+			</field>
+		</record>
+
+
+		<record id="act_obra" model="ir.actions.act_window">
+			<field name="name">Upoteatro Obra</field>
+			<field name="res_model">upoteatro.obra</field>
+			<field name="view_mode">tree,form,search</field>
+		</record>
+		<menuitem id="upoteatro" name="upoteatro" action="act_obra" />
+		<menuitem name="Obra" id="obra_submenu" parent="upoteatro"
+			sequence="100" />
+		<menuitem name="Ver obras" id="obra_submenu_2"
+			parent="obra_submenu" sequence="100" action="act_obra" />
+	</data>
+</odoo> 

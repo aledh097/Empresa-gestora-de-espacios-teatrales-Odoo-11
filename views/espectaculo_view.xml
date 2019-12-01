@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+
+
+		<!-- Form view -->
+
+		<record model="ir.ui.view" id="upoteatro_espectaculo_form">
+			<field name="name">Espectáculos</field>
+			<field name="model">upoteatro.espectaculo</field>
+			<field name="arch" type="xml">
+				<form string="Form of espectaculo">
+					<group string="Espectaculo">
+						<field name="name" />
+						<field name="productor" />
+						<field name="categoria" />
+						<field name="gastos" />
+					</group>
+					<group>
+						<field name="representacion_ids" />
+						<field name="obras_ids" />
+						<field name="companias_ids" />
+					</group>
+				</form>
+			</field>
+		</record>
+
+		<!-- Tree view -->
+
+		<record model="ir.ui.view" id="upoteatro_espectaculo_tree">
+			<field name="name">Espectáculos</field>
+			<field name="model">upoteatro.espectaculo</field>
+			<field name="arch" type="xml">
+				<tree string="Tree of espectaculo">
+					<field name="name" />
+					<field name="productor" />
+					<field name="categoria" />
+					<field name="gastos" />
+					<field name="representacion_ids" />
+					<field name="obras_ids" />
+					<field name="companias_ids" />
+				</tree>
+			</field>
+		</record>
+
+		<!-- Graph view -->
+
+		<record model="ir.ui.view" id="espectaculo_graph_view">
+			<field name="name">Gráfico de gastos de espectáculo</field>
+			<field name="model">upoteatro.espectaculo</field>
+			<field name="type">graph</field>
+			<field name="arch" type="xml">
+				<graph type="bar" string="Gráfico de gastos de espectáculo">
+					<field name="name" type="row" />
+					<field name="gastos" type="measure" />
+				</graph>
+			</field>
+		</record>
+
+		<!-- Search view -->
+
+		<record id="espectaculo_view_search" model="ir.ui.view">
+			<field name="name">upoteatro.espectaculo.search</field>
+			<field name="model">upoteatro.espectaculo</field>
+			<field name="arch" type="xml">
+				<search string="Search">
+					<field name="name" string="Nombre espectáculo" />
+					<field name="productor"
+						string="Nombre del productor del espectáculo" />
+					<field name="categoria"
+						string="Nombre de la categoria del espectáculo" />
+					<filter string="Gastos &gt; 1000" domain="[('gastos','&gt;',1000)]" />
+					<filter string="Gastos &gt; 10000" domain="[('gastos','&gt;',10000)]" />
+					<filter string="Gastos &lt; 1000" domain="[('gastos','&lt;',1000)]" />
+					<filter string="Gastos &lt; 10000" domain="[('gastos','&lt;',10000)]" />
+
+					<group expand="0" string="Group By">
+						<filter name="group_by_nombre_espectaculo"
+							string="Por nombre del espectaculo" context="{'group_by':'name'}" />
+						<filter name="group_by_nombre_productor_espectaculo"
+							string="Por nombre del productor"
+							context="{'group_by':'productor'}" />
+						<filter name="group_by_categoria" string="Por categoría"
+							context="{'group_by':'categoria'}" />
+					</group>
+
+				</search>
+			</field>
+		</record>
+
+
+		<record id="act_espectaculo" model="ir.actions.act_window">
+			<field name="name">Upoteatro Espectáculo</field>
+			<field name="res_model">upoteatro.espectaculo</field>
+			<field name="view_mode">tree,form,graph</field>
+		</record>
+		<menuitem id="upoteatro" name="upoteatro"
+			action="act_espectaculo" />
+		<menuitem name="Espectáculo" id="espectaculo_submenu"
+			parent="upoteatro" sequence="100" />
+		<menuitem name="Ver espectáculos" id="espectaculo_submenu_2"
+			parent="espectaculo_submenu" sequence="100" action="act_espectaculo" />
+	</data>
+</odoo> 

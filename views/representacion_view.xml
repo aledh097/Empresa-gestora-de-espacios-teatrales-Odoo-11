@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+
+		<!-- Form view -->
+
+		<record model="ir.ui.view" id="upoteatro_representacion_form">
+			<field name="name">Representaciones</field>
+			<field name="model">upoteatro.representacion</field>
+			<field name="arch" type="xml">
+				<form string="Form of representacion">
+					<group string="Representación">
+						<field name="espectaculo_id" />
+						<field name="fechaHoraInicio" />
+						<field name="fechaHoraFin" />
+						<field name="esAdaptada" />
+					</group>
+					<group>
+						<field name="interpretes_ids" />
+					</group>
+				</form>
+			</field>
+		</record>
+
+		<!-- Tree view -->
+
+		<record model="ir.ui.view" id="upoteatro_representacion_tree">
+			<field name="name">Representaciones</field>
+			<field name="model">upoteatro.representacion</field>
+			<field name="arch" type="xml">
+				<tree string="Tree of representacion">
+					<field name="espectaculo_id" />
+					<field name="fechaHoraInicio" />
+					<field name="fechaHoraFin" />
+					<field name="esAdaptada" />
+					<field name="interpretes_ids" />
+				</tree>
+			</field>
+		</record>
+
+		<!-- Calendar view -->
+
+		<record model="ir.ui.view" id="representacion_calendar_view">
+			<field name="name">Calendario de representaciones</field>
+			<field name="model">upoteatro.representacion</field>
+			<field name="type">calendar</field>
+			<field name="arch" type="xml">
+				<calendar string="Vista Calendario" color="espectaculo_id"
+					date_start="fechaHoraInicio" date_stop="fechaHoraFin">
+					<field name="espectaculo_id" />
+				</calendar>
+			</field>
+		</record>
+
+		<!-- Search view -->
+
+		<record id="representacion_view_search" model="ir.ui.view">
+			<field name="name">upoteatro.representacion.search</field>
+			<field name="model">upoteatro.representacion</field>
+			<field name="arch" type="xml">
+				<search string="Search">
+					<filter name="today" string="Representaciones que actúan hoy"
+						domain="[('fechaHoraInicio','&gt;=',context_today().strftime('%%Y-%%m-%%d 00:00:00')), ('fechaHoraInicio','&lt;=',context_today().strftime('%%Y-%%m-%%d 23:59:59')), ]" />
+					<filter string="Representaciones adaptadas"
+						domain="[('esAdaptada', '=', True)]" />
+					<filter string="Representaciones NO adaptadas"
+						domain="[('esAdaptada', '=', False)]" />
+					<group expand="0" string="Group By">
+						<filter name="group_by_month" string="Agrupar por mes"
+							context="{'group_by': 'fechaHoraInicio:month'}" />
+						<filter name="group_by_year" string="Agrupar por año"
+							context="{'group_by': 'fechaHoraInicio:year'}" />
+					</group>
+				</search>
+			</field>
+		</record>
+
+
+		<record id="act_representacion" model="ir.actions.act_window">
+			<field name="name">Upoteatro Representación</field>
+			<field name="res_model">upoteatro.representacion</field>
+			<field name="view_mode">tree,form,calendar</field>
+		</record>
+		<menuitem id="upoteatro" name="upoteatro"
+			action="act_representacion" />
+		<menuitem name="Representación" id="representacion_submenu"
+			parent="upoteatro" sequence="100" />
+		<menuitem name="Ver representaciones"
+			id="representacion_submenu_2" parent="representacion_submenu"
+			sequence="100" action="act_representacion" />
+	</data>
+</odoo> 

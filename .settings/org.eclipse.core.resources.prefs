@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//models/__init__.py=utf-8
+encoding//models/compania.py=utf-8
+encoding//models/espectaculo.py=utf-8
+encoding//models/idioma.py=utf-8
+encoding//models/interprete.py=utf-8
+encoding//models/models.py=utf-8
+encoding//models/obra.py=utf-8
+encoding//models/representacion.py=utf-8
+encoding/__init__.py=utf-8
+encoding/__manifest__.py=utf-8

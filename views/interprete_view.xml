@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+
+		<!-- Form view -->
+
+		<record model="ir.ui.view" id="upoteatro_interprete_form">
+			<field name="name">interpretes</field>
+			<field name="model">upoteatro.interprete</field>
+			<field name="arch" type="xml">
+				<form string="Form of interprete">
+					<group string="Intérprete">
+						<field name="DNI" />
+						<field name="name" />
+						<field name="apellidos" />
+					</group>
+					<group>
+						<field name="idiomas_ids" />
+						<field name="representaciones_ids" />
+					</group>
+				</form>
+			</field>
+		</record>
+		
+		<!-- Tree view -->
+
+		<record model="ir.ui.view" id="upoteatro_interprete_tree">
+			<field name="name">interprete</field>
+			<field name="model">upoteatro.interprete</field>
+			<field name="arch" type="xml">
+				<tree string="Tree of interprete">
+					<field name="DNI" />
+					<field name="name" />
+					<field name="apellidos" />
+					<field name="idiomas_ids" />
+					<field name="representaciones_ids" />
+				</tree>
+			</field>
+		</record>
+
+		<record id="act_interprete" model="ir.actions.act_window">
+			<field name="name">Upoteatro Intérprete</field>
+			<field name="res_model">upoteatro.interprete</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		<menuitem id="upoteatro" name="upoteatro" action="act_interprete" />
+		<menuitem name="Intérprete" id="interprete_submenu" parent="upoteatro"
+			sequence="100" />
+		<menuitem name="Ver intérpretes" id="interprete_submenu_2"
+			parent="interprete_submenu" sequence="100" action="act_interprete" />
+	</data>
+</odoo> 
