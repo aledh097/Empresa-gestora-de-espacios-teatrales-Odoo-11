@@ -48,6 +48,24 @@
             <field name="espectaculo_id">3</field>
         </record>
 
+        <record id="obra1" model="upoteatro.representacion">
+            <field name="name">Rey León - El origen</field>
+            <field name="autor">Don Hahn</field>
+            <field name="espectaculo_id">1</field>
+        </record>
+
+        <record id="obra2" model="upoteatro.representacion">
+            <field name="name">Pocoyo y sus amigos</field>
+            <field name="autor">David Cantolla</field>
+            <field name="espectaculo_id">2</field>
+        </record>
+
+        <record id="obra3" model="upoteatro.representacion">
+            <field name="name">La Celestina</field>
+            <field name="autor">Fernando de Rojas</field>
+            <field name="espectaculo_id">3</field>
+        </record>
+
 
 
         <!--
