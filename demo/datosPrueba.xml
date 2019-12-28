@@ -20,6 +20,36 @@
             <field name="gastos">20000</field>
         </record>
 
+        <record id="representacion1" model="upoteatro.representacion">
+            <field name="fechaHoraInicio">2020/01/01 21:54:37</field>
+            <field name="fechaHoraFin">2020/01/01 22:54:37</field>
+            <field name="esAdaptada">false</field>
+            <field name="espectaculo_id">1</field>
+        </record>
+
+        <record id="representacion2" model="upoteatro.representacion">
+            <field name="fechaHoraInicio">2020/01/04 18:55:20</field>
+            <field name="fechaHoraFin">2020/01/04 19:55:20</field>
+            <field name="esAdaptada">true</field>
+            <field name="espectaculo_id">1</field>
+        </record>
+
+        <record id="representacion3" model="upoteatro.representacion">
+            <field name="fechaHoraInicio">2020/01/07 15:55:47</field>
+            <field name="fechaHoraFin">2020/01/07 16:55:47</field>
+            <field name="esAdaptada">false</field>
+            <field name="espectaculo_id">2</field>
+        </record>
+
+        <record id="representacion4" model="upoteatro.representacion">
+            <field name="fechaHoraInicio">2020/01/16 18:56:14</field>
+            <field name="fechaHoraFin">2020/01/16 19:56:14</field>
+            <field name="esAdaptada">false</field>
+            <field name="espectaculo_id">3</field>
+        </record>
+
+
+
         <!--
         <record id="gymuser53" model="gym.gymuser">
             <field name="name">Lola Mento</field>
