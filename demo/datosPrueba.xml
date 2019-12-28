@@ -67,14 +67,14 @@
         </record>
 
         <record id="compania1" model="upoteatro.compania">
-            <field name="cif">67172215W</field>
+            <field name="CIF">67172215W</field>
             <field name="nombre">UPO Company</field>
             <field name="director">Pablo López Madroñal</field>
             <field name="espectaculos_ids" eval="[(6, 0, [espectaculo1, espectaculo2])]"></field>
         </record>
 
         <record id="compania2" model="upoteatro.compania">
-            <field name="cif">14608605V</field>
+            <field name="CIF">14608605V</field>
             <field name="nombre">US company</field>
             <field name="director">	Federico Carlos Dopico</field>
             <field name="espectaculos_ids" eval="[(6, 0, [espectaculo3])]"></field>
