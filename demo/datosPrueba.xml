@@ -51,20 +51,20 @@
         <record id="obra1" model="upoteatro.representacion">
             <field name="name">Rey León - El origen</field>
             <field name="autor">Don Hahn</field>
-            <field name="gymuser_ids" eval="[(6, 0, [espectaculo1])]"></field>
+            <field name="espectaculos_ids" eval="[(6, 0, [espectaculo1])]"></field>
         </record>
 
         <record id="obra2" model="upoteatro.representacion">
             <field name="name">Pocoyo y sus amigos</field>
             <field name="autor">David Cantolla</field>
-            <field name="gymuser_ids" eval="[(6, 0, [espectaculo2])]"></field>
+            <field name="espectaculos_ids" eval="[(6, 0, [espectaculo2])]"></field>
 
         </record>
 
         <record id="obra3" model="upoteatro.representacion">
             <field name="name">La Celestina</field>
             <field name="autor">Fernando de Rojas</field>
-            <field name="gymuser_ids" eval="[(6, 0, [espectaculo3])]"></field>
+            <field name="espectaculos_ids" eval="[(6, 0, [espectaculo3])]"></field>
 
         </record>
 
