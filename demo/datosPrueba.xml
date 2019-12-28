@@ -58,39 +58,41 @@
             <field name="name">Pocoyo y sus amigos</field>
             <field name="autor">David Cantolla</field>
             <field name="espectaculos_ids" eval="[(6, 0, [espectaculo2])]"></field>
-
         </record>
 
         <record id="obra3" model="upoteatro.obra">
             <field name="name">La Celestina</field>
             <field name="autor">Fernando de Rojas</field>
             <field name="espectaculos_ids" eval="[(6, 0, [espectaculo3])]"></field>
-
         </record>
 
+        <record id="compania1" model="upoteatro.compania">
+            <field name="cif">67172215W</field>
+            <field name="nombre">UPO Company</field>
+            <field name="director">Pablo López Madroñal</field>
+            <field name="espectaculos_ids" eval="[(6, 0, [espectaculo1, espectaculo2])]"></field>
+        </record>
 
-        <!--
-        <record id="gymuser53" model="gym.gymuser">
-            <field name="name">Lola Mento</field>
-            <field name="idcard">53</field>
+        <record id="compania2" model="upoteatro.compania">
+            <field name="cif">14608605V</field>
+            <field name="nombre">US company</field>
+            <field name="director">	Federico Carlos Dopico</field>
+            <field name="espectaculos_ids" eval="[(6, 0, [espectaculo3])]"></field>
         </record>
-        <record id="gymuser54" model="gym.gymuser">
-            <field name="name">Helena Nito</field>
-            <field name="idcard">54</field>
+
+        <record id="idioma1" model="upoteatro.idioma">
+            <field name="nombre">Inglés</field>
+            <field name="nivel">C2</field>
+            <field name="interpretes_ids" eval="[(6, 0, [interprete1])]"></field>
         </record>
-        <record id="gyminstructor100" model="gym.gyminstructor">
-            <field name="name">Pepe Lanas</field>
-            <field name="idcard">100</field>
+
+        <record id="interprete1" model="upoteatro.interprete">
+            <field name="dni">14608605V</field>
+            <field name="nombre">US company</field>
+            <field name="apellidos">Federico Carlos Dopico</field>
+            <field name="idiomas_ids" eval="[(6, 0, [idioma1])]"></field>
+            <field name="representaciones_ids" eval="[(6, 0, [representacion1])]"></field>
         </record>
-        <record id="gymclass_pasodoble" model="gym.gymclass">
-            <field name="name">Pasodoble</field>
-            <field name="start">16/12/2019 15:00:00</field>
-            <field name="end">16/12/2019 17:00:00</field>
-            <field name="capacity">20</field>
-            <field name="activityType">dance</field>
-            <field name="gymuser_ids" eval="[(6, 0, [gymuser50, gymuser51,gymuser52, ])]"></field>
-            <field name="gyminstructor_id" ref="gyminstructor100"></field>
-        </record>
-        -->
+
     </data>
 </odoo>
