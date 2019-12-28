@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="espectaculo1" model="upoteatro.espectaculo">
+            <field name="name">El Rey León, el musical</field>
+            <field name="productor">Angel Salvador Pouso</field>
+            <field name="categoria">musical</field>
+            <field name="gastos">15000</field>
+        </record>
+        <record id="espectaculo2" model="upoteatro.espectaculo">
+            <field name="name">El Show de Pocoyo</field>
+            <field name="productor">Lucas Jose Peribañez</field>
+            <field name="categoria">teatro infantil</field>
+            <field name="gastos">7500</field>
+        </record>
+        <record id="espectaculo3" model="upoteatro.espectaculo">
+            <field name="name">La Celestina</field>
+            <field name="productor">Pablo Ramon Richarte</field>
+            <field name="categoria">teatro clásico</field>
+            <field name="gastos">20000</field>
+        </record>
+
+        <!--
+        <record id="gymuser53" model="gym.gymuser">
+            <field name="name">Lola Mento</field>
+            <field name="idcard">53</field>
+        </record>
+        <record id="gymuser54" model="gym.gymuser">
+            <field name="name">Helena Nito</field>
+            <field name="idcard">54</field>
+        </record>
+        <record id="gyminstructor100" model="gym.gyminstructor">
+            <field name="name">Pepe Lanas</field>
+            <field name="idcard">100</field>
+        </record>
+        <record id="gymclass_pasodoble" model="gym.gymclass">
+            <field name="name">Pasodoble</field>
+            <field name="start">16/12/2019 15:00:00</field>
+            <field name="end">16/12/2019 17:00:00</field>
+            <field name="capacity">20</field>
+            <field name="activityType">dance</field>
+            <field name="gymuser_ids" eval="[(6, 0, [gymuser50, gymuser51,gymuser52, ])]"></field>
+            <field name="gyminstructor_id" ref="gyminstructor100"></field>
+        </record>
+        -->
+    </data>
+</odoo>
