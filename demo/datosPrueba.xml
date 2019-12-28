@@ -80,6 +80,13 @@
             <field name="espectaculos_ids" eval="[(6, 0, [espectaculo3])]"></field>
         </record>
 
+        <record id="interprete1" model="upoteatro.interprete">
+            <field name="DNI">14608605V</field>
+            <field name="name">US company</field>
+            <field name="apellidos">Federico Carlos Dopico</field>
+            <field name="representaciones_ids" eval="[(6, 0, [representacion1])]"></field>
+        </record>
+
         <record id="idioma1" model="upoteatro.idioma">
             <field name="name">Inglés</field>
             <field name="nivel">C2</field>
@@ -87,11 +94,7 @@
         </record>
 
         <record id="interprete1" model="upoteatro.interprete">
-            <field name="dni">14608605V</field>
-            <field name="name">US company</field>
-            <field name="apellidos">Federico Carlos Dopico</field>
             <field name="idiomas_ids" eval="[(6, 0, [idioma1])]"></field>
-            <field name="representaciones_ids" eval="[(6, 0, [representacion1])]"></field>
         </record>
 
     </data>
