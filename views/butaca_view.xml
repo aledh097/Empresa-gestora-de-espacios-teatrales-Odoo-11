@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+
+		<!-- Form view -->
+
+		<record model="ir.ui.view" id="upoteatro_butaca_form">
+			<field name="name">Butacas</field>
+			<field name="model">upoteatro.butaca</field>
+			<field name="arch" type="xml">
+				<form string="Form of butaca">
+					<group string="Butaca">
+						<field name="teatro_id" />
+						<field name="ocupada" />
+						<field name="fila" />
+						<field name="asiento" />
+						<field name="zona" />
+						<field name="entrada_id" />
+					</group>
+				</form>
+			</field>
+		</record>
+
+		<!-- Tree view -->
+
+		<record model="ir.ui.view" id="upoteatro_butaca_tree">
+			<field name="name">Butacas</field>
+			<field name="model">upoteatro.butaca</field>
+			<field name="arch" type="xml">
+				<tree string="Tree of butaca">
+					<field name="teatro_id" />
+					<field name="ocupada" />
+					<field name="fila" />
+					<field name="asiento" />
+					<field name="zona" />
+					<field name="entrada_id" />
+				</tree>
+			</field>
+		</record>
+
+
+		<record id="act_butaca" model="ir.actions.act_window">
+			<field name="name">Upoteatro Butaca</field>
+			<field name="res_model">upoteatro.butaca</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		<menuitem name="upoteatro" id="upoteatro" />
+		<menuitem name="Butaca" id="butaca_submenu"
+			parent="upoteatro" sequence="100" />
+		<menuitem name="Ver butacas" id="butaca_submenu_2"
+			parent="butaca_submenu" sequence="100" action="act_butaca" />
+	</data>
+</odoo> 

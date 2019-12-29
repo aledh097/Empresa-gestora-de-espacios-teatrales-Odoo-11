@@ -7,7 +7,9 @@
     'category': 'teatro',
     'version': '0.1',
     'depends': ['base'],
-    'data': ['views/representacion_view.xml','views/espectaculo_view.xml','views/obra_view.xml','views/compania_view.xml','views/interprete_view.xml','views/idioma_view.xml'],
+    'data': ['views/teatro_view.xml','views/espectaculo_view.xml','views/representacion_view.xml',
+             'views/butaca_view.xml','views/entrada_view.xml','views/obra_view.xml',
+             'views/compania_view.xml','views/idioma_view.xml','views/interprete_view.xml'], # el orden es en el que aparecen en Odoo. Si no sale bien, hay que reinstalar el módulo
     'demo': ['demo/datosPrueba.xml'],
     'application': True,
 }

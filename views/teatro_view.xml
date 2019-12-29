@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+
+		<!-- Form view -->
+
+		<record model="ir.ui.view" id="upoteatro_teatro_form">
+			<field name="name">Teatros</field>
+			<field name="model">upoteatro.teatro</field>
+			<field name="arch" type="xml">
+				<form string="Form of teatro">
+					<group string="Teatro">
+						<field name="name" />
+						<field name="direccion" />
+						<field name="aforo" />
+						<field name="representaciones_ids" />
+						<field name="butacas_ids" />
+					</group>
+				</form>
+			</field>
+		</record>
+
+		<!-- Tree view -->
+
+		<record model="ir.ui.view" id="upoteatro_teatro_tree">
+			<field name="name">Teatros</field>
+			<field name="model">upoteatro.teatro</field>
+			<field name="arch" type="xml">
+				<tree string="Tree of teatro">
+					<field name="name" />
+					<field name="direccion" />
+					<field name="aforo" />
+					<field name="representaciones_ids" />
+					<field name="butacas_ids" />
+				</tree>
+			</field>
+		</record>
+
+
+		<record id="act_teatro" model="ir.actions.act_window">
+			<field name="name">Upoteatro Teatro</field>
+			<field name="res_model">upoteatro.teatro</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		<menuitem name="upoteatro" id="upoteatro" />
+		<menuitem name="Teatro" id="teatro_submenu"
+			parent="upoteatro" sequence="100" />
+		<menuitem name="Ver teatros" id="teatro_submenu_2"
+			parent="teatro_submenu" sequence="100" action="act_teatro" />
+	</data>
+</odoo> 

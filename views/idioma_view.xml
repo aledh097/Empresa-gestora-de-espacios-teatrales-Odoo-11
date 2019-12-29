@@ -11,7 +11,6 @@
 				<form string="Form of idioma">
 					<group string="Idiomas">
 						<field name="name" />
-						<field name="nivel" />
 						<field name="interpretes_ids" />
 					</group>
 				</form>
@@ -26,7 +25,6 @@
 			<field name="arch" type="xml">
 				<tree string="Tree of idioma">
 					<field name="name" />
-					<field name="nivel" />
 					<field name="interpretes_ids" />
 				</tree>
 			</field>
@@ -37,7 +35,7 @@
 			<field name="res_model">upoteatro.idioma</field>
 			<field name="view_mode">tree,form</field>
 		</record>
-		<menuitem id="upoteatro" name="upoteatro" action="act_idioma" />
+		<menuitem name="upoteatro" id="upoteatro" action="act_idioma" />
 		<menuitem name="Idioma" id="idioma_submenu" parent="upoteatro"
 			sequence="100" />
 		<menuitem name="Ver idioma" id="idioma_submenu_2"

@@ -43,7 +43,7 @@
 			<field name="res_model">upoteatro.interprete</field>
 			<field name="view_mode">tree,form</field>
 		</record>
-		<menuitem id="upoteatro" name="upoteatro" action="act_interprete" />
+		<menuitem name="upoteatro" id="upoteatro" action="act_interprete" />
 		<menuitem name="Intérprete" id="interprete_submenu" parent="upoteatro"
 			sequence="100" />
 		<menuitem name="Ver intérpretes" id="interprete_submenu_2"

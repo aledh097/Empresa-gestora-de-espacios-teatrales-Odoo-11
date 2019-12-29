@@ -10,13 +10,13 @@
 			<field name="arch" type="xml">
 				<form string="Form of representacion">
 					<group string="Representación">
+						<field name="teatro_id" />
 						<field name="espectaculo_id" />
 						<field name="fechaHoraInicio" />
 						<field name="fechaHoraFin" />
 						<field name="esAdaptada" />
-					</group>
-					<group>
 						<field name="interpretes_ids" />
+						<field name="entradas_ids" />
 					</group>
 				</form>
 			</field>
@@ -29,11 +29,13 @@
 			<field name="model">upoteatro.representacion</field>
 			<field name="arch" type="xml">
 				<tree string="Tree of representacion">
+					<field name="teatro_id" />
 					<field name="espectaculo_id" />
 					<field name="fechaHoraInicio" />
 					<field name="fechaHoraFin" />
 					<field name="esAdaptada" />
 					<field name="interpretes_ids" />
+					<field name="entradas_ids" />
 				</tree>
 			</field>
 		</record>
@@ -81,7 +83,7 @@
 			<field name="res_model">upoteatro.representacion</field>
 			<field name="view_mode">tree,form,calendar</field>
 		</record>
-		<menuitem id="upoteatro" name="upoteatro"
+		<menuitem name="upoteatro" id="upoteatro"
 			action="act_representacion" />
 		<menuitem name="Representación" id="representacion_submenu"
 			parent="upoteatro" sequence="100" />

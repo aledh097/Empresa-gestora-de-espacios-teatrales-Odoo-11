@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+
+		<!-- Form view -->
+
+		<record model="ir.ui.view" id="upoteatro_entrada_form">
+			<field name="name">Entradas</field>
+			<field name="model">upoteatro.entrada</field>
+			<field name="arch" type="xml">
+				<form string="Form of entrada">
+					<group string="Entrada">
+						<field name="haEntrado" />
+						<field name="esAdaptada" />
+						<field name="precio" />
+						<field name="porcentajeDescuento" />
+						<field name="butacas_ids" />
+						<field name="representacion_id" />
+					</group>
+				</form>
+			</field>
+		</record>
+
+		<!-- Tree view -->
+
+		<record model="ir.ui.view" id="upoteatro_entrada_tree">
+			<field name="name">Entradas</field>
+			<field name="model">upoteatro.entrada</field>
+			<field name="arch" type="xml">
+				<tree string="Tree of entrada">
+					<field name="haEntrado" />
+					<field name="esAdaptada" />
+					<field name="precio" />
+					<field name="porcentajeDescuento" />
+					<field name="butacas_ids" />
+					<field name="representacion_id" />
+				</tree>
+			</field>
+		</record>
+
+
+		<record id="act_entrada" model="ir.actions.act_window">
+			<field name="name">Upoteatro Entrada</field>
+			<field name="res_model">upoteatro.entrada</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+		<menuitem name="upoteatro" id="upoteatro" />
+		<menuitem name="Entrada" id="entrada_submenu"
+			parent="upoteatro" sequence="100" />
+		<menuitem name="Ver entradas" id="entrada_submenu_2"
+			parent="entrada_submenu" sequence="100" action="act_entrada" />
+	</data>
+</odoo> 
