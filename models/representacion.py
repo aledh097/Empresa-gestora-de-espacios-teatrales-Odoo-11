@@ -10,5 +10,5 @@ class representacion(models.Model):
     esAdaptada = fields.Boolean ('Representación Adaptada',required=True, default=False)
     espectaculo_id = fields.Many2one('upoteatro.espectaculo',string='Espectáculo',required=True)
     interpretes_ids = fields.Many2many('upoteatro.interprete',string='Intérpretes')
-    teatro_id = fields.Many2one('upoteatro.teatro',string='Teatro',required=True)
+    teatro_id = fields.Many2one('upoteatro.teatro',string='Teatro') #De momento el required=True lo omitimos para que no de error en la carga de datos de la entrega 2.
     entradas_ids = fields.One2many('upoteatro.entrada','representacion_id','Entradas')
