@@ -40,7 +40,7 @@
 			<field name="res_model">upoteatro.obra</field>
 			<field name="view_mode">tree,form,search</field>
 		</record>
-		<menuitem name="upoteatro" id="upoteatro" action="act_obra" />
+		<menuitem name="upoteatro" id="upoteatro"/>
 		<menuitem name="Obra" id="obra_submenu" parent="upoteatro"
 			sequence="100" />
 		<menuitem name="Ver obras" id="obra_submenu_2"

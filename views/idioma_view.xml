@@ -35,7 +35,7 @@
 			<field name="res_model">upoteatro.idioma</field>
 			<field name="view_mode">tree,form</field>
 		</record>
-		<menuitem name="upoteatro" id="upoteatro" action="act_idioma" />
+		<menuitem name="upoteatro" id="upoteatro"/>
 		<menuitem name="Idioma" id="idioma_submenu" parent="upoteatro"
 			sequence="100" />
 		<menuitem name="Ver idioma" id="idioma_submenu_2"

@@ -94,8 +94,7 @@
 			<field name="res_model">upoteatro.espectaculo</field>
 			<field name="view_mode">tree,form,graph</field>
 		</record>
-		<menuitem name="upoteatro" id="upoteatro" 
-			action="act_espectaculo" />
+		<menuitem name="upoteatro" id="upoteatro"/>
 		<menuitem name="Espectáculo" id="espectaculo_submenu"
 			parent="upoteatro" sequence="100" />
 		<menuitem name="Ver espectáculos" id="espectaculo_submenu_2"

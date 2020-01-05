@@ -83,8 +83,7 @@
 			<field name="res_model">upoteatro.representacion</field>
 			<field name="view_mode">tree,form,calendar</field>
 		</record>
-		<menuitem name="upoteatro" id="upoteatro"
-			action="act_representacion" />
+		<menuitem name="upoteatro" id="upoteatro"/>
 		<menuitem name="Representación" id="representacion_submenu"
 			parent="upoteatro" sequence="100" />
 		<menuitem name="Ver representaciones"
