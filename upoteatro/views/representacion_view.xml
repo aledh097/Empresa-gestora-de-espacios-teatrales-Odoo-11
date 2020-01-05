@@ -79,7 +79,7 @@
 
 
 		<record id="act_representacion" model="ir.actions.act_window">
-			<field name="name">Upoteatro Representación</field>
+			<field name="name">upoteatro Representación</field>
 			<field name="res_model">upoteatro.representacion</field>
 			<field name="view_mode">tree,form,calendar</field>
 		</record>

@@ -36,7 +36,7 @@
 
 
 		<record id="act_obra" model="ir.actions.act_window">
-			<field name="name">Upoteatro Obra</field>
+			<field name="name">upoteatro Obra</field>
 			<field name="res_model">upoteatro.obra</field>
 			<field name="view_mode">tree,form,search</field>
 		</record>

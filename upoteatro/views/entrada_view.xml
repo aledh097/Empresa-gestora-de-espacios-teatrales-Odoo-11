@@ -40,7 +40,7 @@
 
 
 		<record id="act_entrada" model="ir.actions.act_window">
-			<field name="name">Upoteatro Entrada</field>
+			<field name="name">upoteatro Entrada</field>
 			<field name="res_model">upoteatro.entrada</field>
 			<field name="view_mode">tree,form</field>
 		</record>

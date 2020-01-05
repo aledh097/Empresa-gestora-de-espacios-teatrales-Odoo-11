@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+		<record model="ir.ui.view" id="upoteatro_extension_entradaindividual_form">
+			<field name="name">Entrada Individual</field>
+			<field name="model">upoteatro_extension_entradaindividual</field>
+			<field name="arch" type="xml">
+				<form string="Form of entradaindividual">
+					<group string="Entradas Individuales">
+						<field name="tipoEntrada" />
+						<field name="entrada_id" />
+					</group>
+
+				</form>
+			</field>
+		</record>
+		<record model="ir.ui.view" id="upoteatro_extension_entradaindividual_tree">
+			<field name="name">Entrada Individual</field>
+			<field name="model">upoteatro_extension_entradaindividual</field>
+			<field name="arch" type="xml">
+				<tree string="List of Entradas Grupales">
+						<field name="tipoEntrada" />
+						<field name="entrada_id" /> 
+				</tree>
+			</field>
+		</record>
+
+		<record id="act_entradaindividual" model="ir.actions.act_window">
+			<field name="name">Entrada Individual</field>
+			<field name="res_model">upoteatro_extension_entradaindividual</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+		<menuitem id="upoteatro_extension_submenu" name="upoteatro Extension"
+			parent="upoteatro.upoteatro" />
+		<menuitem name="Ver Entrada Individual" id="entradaindividual_submenu_2"
+			parent="upoteatro_expansion_submenu" sequence="100" action="act_entradaindividual"/>
+
+	</data>
+</odoo> 

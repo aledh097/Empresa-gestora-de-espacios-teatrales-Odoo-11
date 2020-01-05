@@ -40,7 +40,7 @@
 
 
 		<record id="act_butaca" model="ir.actions.act_window">
-			<field name="name">Upoteatro Butaca</field>
+			<field name="name">upoteatro Butaca</field>
 			<field name="res_model">upoteatro.butaca</field>
 			<field name="view_mode">tree,form</field>
 		</record>

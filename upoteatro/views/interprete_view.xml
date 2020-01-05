@@ -39,7 +39,7 @@
 		</record>
 
 		<record id="act_interprete" model="ir.actions.act_window">
-			<field name="name">Upoteatro Intérprete</field>
+			<field name="name">upoteatro Intérprete</field>
 			<field name="res_model">upoteatro.interprete</field>
 			<field name="view_mode">tree,form</field>
 		</record>

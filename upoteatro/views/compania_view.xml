@@ -37,7 +37,7 @@
 		</record>
 
 		<record id="act_compania" model="ir.actions.act_window">
-			<field name="name">Upoteatro Companía</field>
+			<field name="name">upoteatro Companía</field>
 			<field name="res_model">upoteatro.compania</field>
 			<field name="view_mode">tree,form</field>
 		</record>

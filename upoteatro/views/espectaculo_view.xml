@@ -90,7 +90,7 @@
 
 
 		<record id="act_espectaculo" model="ir.actions.act_window">
-			<field name="name">Upoteatro Espectáculo</field>
+			<field name="name">upoteatro Espectáculo</field>
 			<field name="res_model">upoteatro.espectaculo</field>
 			<field name="view_mode">tree,form,graph</field>
 		</record>

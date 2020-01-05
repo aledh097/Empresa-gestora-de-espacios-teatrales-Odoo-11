@@ -31,7 +31,7 @@
 		</record>
 
 		<record id="act_idioma" model="ir.actions.act_window">
-			<field name="name">Upoteatro Idioma</field>
+			<field name="name">upoteatro Idioma</field>
 			<field name="res_model">upoteatro.idioma</field>
 			<field name="view_mode">tree,form</field>
 		</record>
