@@ -4,7 +4,8 @@ from odoo import models, fields, api
 
 class representacion(models.Model):
     _name = 'upoteatro.representacion'
-
+    _rec_name = 'espectaculo_id'
+    
     fechaHoraInicio = fields.Datetime('Hora Inicio',required=True, autodate = True)
     fechaHoraFin = fields.Datetime('Hora Fin',required=True, autodate = True)
     esAdaptada = fields.Boolean ('Representación Adaptada',required=True, default=False)

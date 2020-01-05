@@ -10,10 +10,10 @@
 			<field name="arch" type="xml">
 				<form string="Form of butaca">
 					<group string="Butaca">
+						<field name="asiento" />
 						<field name="teatro_id" />
 						<field name="ocupada" />
 						<field name="fila" />
-						<field name="asiento" />
 						<field name="zona" />
 						<field name="entrada_id" />
 					</group>
@@ -28,10 +28,10 @@
 			<field name="model">upoteatro.butaca</field>
 			<field name="arch" type="xml">
 				<tree string="Tree of butaca">
+					<field name="asiento" />
 					<field name="teatro_id" />
 					<field name="ocupada" />
 					<field name="fila" />
-					<field name="asiento" />
 					<field name="zona" />
 					<field name="entrada_id" />
 				</tree>
