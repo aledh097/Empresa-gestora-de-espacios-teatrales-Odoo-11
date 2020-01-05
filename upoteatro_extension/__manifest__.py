@@ -7,7 +7,7 @@
     'category': 'teatro',
     'version': '0.1',
     'depends': ['upoteatro'],
-    'data': ['views/entradaIndividual_view.xml'],
+    'data': ['views/entradaindividual_view.xml'],
     'demo': [''],
     #'demo': ['demo/datosPrueba.xml'],
     'application': True,
