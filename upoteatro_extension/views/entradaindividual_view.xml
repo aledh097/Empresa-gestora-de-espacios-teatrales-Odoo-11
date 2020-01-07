@@ -8,7 +8,6 @@
 				<form string="Form of entradaindividual">
 					<group string="Entradas Individuales">
 						<field name="tipoEntrada" />
-						<field name="entrada_id" />
 					</group>
 
 				</form>
@@ -20,7 +19,6 @@
 			<field name="arch" type="xml">
 				<tree string="List of Entradas Grupales">
 						<field name="tipoEntrada" />
-						<field name="entrada_id" /> 
 				</tree>
 			</field>
 		</record>

@@ -12,4 +12,4 @@ class butaca(models.Model):
                              ('palco','Palco')],'Zona',required=True)
     asiento = fields.Integer('Asiento',required=True)
     teatro_id = fields.Many2one('upoteatro.teatro',string='Teatro',required=True)
-    entradas_ids = fields.Many2many('upoteatro.entrada','Entradas')
+    entradas_ids = fields.Many2many('upoteatro.entrada',string='Entradas')
