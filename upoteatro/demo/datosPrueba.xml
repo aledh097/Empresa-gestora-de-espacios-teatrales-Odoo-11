@@ -1761,46 +1761,6 @@
 				eval="[(6, 0, [butaca3,butaca4,butaca5,butaca6,butaca7,butaca8,butaca9,butaca10])]"></field>
 		</record>
 
-		<record id="butaca1" model="upoteatro.butaca">
-			<field name="entrada_id" ref="entrada1"></field>
-		</record>
-
-		<record id="butaca2" model="upoteatro.butaca">
-			<field name="entrada_id" ref="entrada2"></field>
-		</record>
-
-		<record id="butaca3" model="upoteatro.butaca">
-			<field name="entrada_id" ref="entrada3"></field>
-		</record>
-
-		<record id="butaca4" model="upoteatro.butaca">
-			<field name="entrada_id" ref="entrada3"></field>
-		</record>
-
-		<record id="butaca5" model="upoteatro.butaca">
-			<field name="entrada_id" ref="entrada3"></field>
-		</record>
-
-		<record id="butaca6" model="upoteatro.butaca">
-			<field name="entrada_id" ref="entrada3"></field>
-		</record>
-
-		<record id="butaca7" model="upoteatro.butaca">
-			<field name="entrada_id" ref="entrada3"></field>
-		</record>
-
-		<record id="butaca8" model="upoteatro.butaca">
-			<field name="entrada_id" ref="entrada3"></field>
-		</record>
-
-		<record id="butaca9" model="upoteatro.butaca">
-			<field name="entrada_id" ref="entrada3"></field>
-		</record>
-
-		<record id="butaca10" model="upoteatro.butaca">
-			<field name="entrada_id" ref="entrada3"></field>
-		</record>
-
 
 
 	</data>

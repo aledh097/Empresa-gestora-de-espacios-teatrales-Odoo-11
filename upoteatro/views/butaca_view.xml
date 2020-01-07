@@ -15,7 +15,7 @@
 						<field name="ocupada" />
 						<field name="fila" />
 						<field name="zona" />
-						<field name="entrada_id" />
+						<field name="entradas_ids" />
 					</group>
 				</form>
 			</field>
@@ -33,7 +33,7 @@
 					<field name="ocupada" />
 					<field name="fila" />
 					<field name="zona" />
-					<field name="entrada_id" />
+					<field name="entradas_ids" />
 				</tree>
 			</field>
 		</record>
