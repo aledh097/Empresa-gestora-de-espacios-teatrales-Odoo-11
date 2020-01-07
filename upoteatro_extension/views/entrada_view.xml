@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+
+		<!-- Form View -->
+		<record model="ir.ui.view" id="view_upoteatro_extension_entrada_form">
+			<field name="name">view_upoteatro_extension_entrada_form</field>
+			<field name="model">upoteatro.entrada</field>
+			<field name="type">form</field>
+			<field name="inherit_id" ref="upoteatro.upoteatro_entrada_form" />
+			<field name="arch" type="xml">
+				<data>
+					<field name="representacion_id" position="after">
+						<field name="entradaIndividual_id"/>
+					</field>
+				</data>
+			</field>
+		</record>
+
+	</data>
+</odoo>

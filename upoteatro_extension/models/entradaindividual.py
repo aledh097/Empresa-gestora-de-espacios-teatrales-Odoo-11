@@ -11,4 +11,4 @@ class entradaindividual(models.Model):
                                      ('infantil','Infantil'),
                                      ('estudiante','Estudiante'),
                                      ('normal','Normal'),],'Tipo de Entrada',required=True)
-    entrada_id = fields.Many2one('upoteatro.entrada',string='Entrada',required=True)
+    entrada_id = fields.Many2one('upoteatro.entrada',string='Entrada',readonly=True)
