@@ -12,7 +12,6 @@
 					<group string="Butaca">
 						<field name="asiento" />
 						<field name="teatro_id" />
-						<field name="ocupada" />
 						<field name="fila" />
 						<field name="zona" />
 						<field name="entradas_ids" />
@@ -30,7 +29,6 @@
 				<tree string="Tree of butaca">
 					<field name="asiento" />
 					<field name="teatro_id" />
-					<field name="ocupada" />
 					<field name="fila" />
 					<field name="zona" />
 					<field name="entradas_ids" />

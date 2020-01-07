@@ -127,9 +127,8 @@
 			<field name="teatro_id" ref="teatro1"></field>
 		</record>
 
-		<record id="butaca1" model="upoteatro.butaca">
+xx		<record id="butaca1" model="upoteatro.butaca">
 			<field name="asiento">1</field>
-			<field name="ocupada">false</field>
 			<field name="fila">1</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -137,7 +136,6 @@
 
 		<record id="butaca2" model="upoteatro.butaca">
 			<field name="asiento">2</field>
-			<field name="ocupada">false</field>
 			<field name="fila">1</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -145,7 +143,6 @@
 
 		<record id="butaca3" model="upoteatro.butaca">
 			<field name="asiento">3</field>
-			<field name="ocupada">false</field>
 			<field name="fila">1</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -153,7 +150,6 @@
 
 		<record id="butaca4" model="upoteatro.butaca">
 			<field name="asiento">4</field>
-			<field name="ocupada">false</field>
 			<field name="fila">1</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -161,7 +157,6 @@
 
 		<record id="butaca5" model="upoteatro.butaca">
 			<field name="asiento">5</field>
-			<field name="ocupada">false</field>
 			<field name="fila">1</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -169,7 +164,6 @@
 
 		<record id="butaca6" model="upoteatro.butaca">
 			<field name="asiento">6</field>
-			<field name="ocupada">false</field>
 			<field name="fila">1</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -177,7 +171,6 @@
 
 		<record id="butaca7" model="upoteatro.butaca">
 			<field name="asiento">7</field>
-			<field name="ocupada">false</field>
 			<field name="fila">1</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -185,7 +178,6 @@
 
 		<record id="butaca8" model="upoteatro.butaca">
 			<field name="asiento">8</field>
-			<field name="ocupada">false</field>
 			<field name="fila">1</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -193,7 +185,6 @@
 
 		<record id="butaca9" model="upoteatro.butaca">
 			<field name="asiento">9</field>
-			<field name="ocupada">false</field>
 			<field name="fila">1</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -201,7 +192,6 @@
 
 		<record id="butaca10" model="upoteatro.butaca">
 			<field name="asiento">10</field>
-			<field name="ocupada">false</field>
 			<field name="fila">1</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -209,7 +199,6 @@
 
 		<record id="butaca11" model="upoteatro.butaca">
 			<field name="asiento">11</field>
-			<field name="ocupada">false</field>
 			<field name="fila">2</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -217,7 +206,6 @@
 
 		<record id="butaca12" model="upoteatro.butaca">
 			<field name="asiento">12</field>
-			<field name="ocupada">false</field>
 			<field name="fila">2</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -225,7 +213,6 @@
 
 		<record id="butaca13" model="upoteatro.butaca">
 			<field name="asiento">13</field>
-			<field name="ocupada">false</field>
 			<field name="fila">2</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -233,7 +220,6 @@
 
 		<record id="butaca14" model="upoteatro.butaca">
 			<field name="asiento">14</field>
-			<field name="ocupada">false</field>
 			<field name="fila">2</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -241,7 +227,6 @@
 
 		<record id="butaca15" model="upoteatro.butaca">
 			<field name="asiento">15</field>
-			<field name="ocupada">false</field>
 			<field name="fila">2</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -249,7 +234,6 @@
 
 		<record id="butaca16" model="upoteatro.butaca">
 			<field name="asiento">16</field>
-			<field name="ocupada">false</field>
 			<field name="fila">2</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -257,7 +241,6 @@
 
 		<record id="butaca17" model="upoteatro.butaca">
 			<field name="asiento">17</field>
-			<field name="ocupada">false</field>
 			<field name="fila">2</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -265,7 +248,6 @@
 
 		<record id="butaca18" model="upoteatro.butaca">
 			<field name="asiento">18</field>
-			<field name="ocupada">false</field>
 			<field name="fila">2</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -273,7 +255,6 @@
 
 		<record id="butaca19" model="upoteatro.butaca">
 			<field name="asiento">19</field>
-			<field name="ocupada">false</field>
 			<field name="fila">2</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -281,7 +262,6 @@
 
 		<record id="butaca20" model="upoteatro.butaca">
 			<field name="asiento">20</field>
-			<field name="ocupada">false</field>
 			<field name="fila">2</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -289,7 +269,6 @@
 
 		<record id="butaca21" model="upoteatro.butaca">
 			<field name="asiento">21</field>
-			<field name="ocupada">false</field>
 			<field name="fila">2</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -297,7 +276,6 @@
 
 		<record id="butaca22" model="upoteatro.butaca">
 			<field name="asiento">22</field>
-			<field name="ocupada">false</field>
 			<field name="fila">3</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -305,7 +283,6 @@
 
 		<record id="butaca23" model="upoteatro.butaca">
 			<field name="asiento">23</field>
-			<field name="ocupada">false</field>
 			<field name="fila">3</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -313,7 +290,6 @@
 
 		<record id="butaca24" model="upoteatro.butaca">
 			<field name="asiento">24</field>
-			<field name="ocupada">false</field>
 			<field name="fila">3</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -321,7 +297,6 @@
 
 		<record id="butaca25" model="upoteatro.butaca">
 			<field name="asiento">25</field>
-			<field name="ocupada">false</field>
 			<field name="fila">3</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -329,7 +304,6 @@
 
 		<record id="butaca26" model="upoteatro.butaca">
 			<field name="asiento">26</field>
-			<field name="ocupada">false</field>
 			<field name="fila">3</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -337,7 +311,6 @@
 
 		<record id="butaca27" model="upoteatro.butaca">
 			<field name="asiento">27</field>
-			<field name="ocupada">false</field>
 			<field name="fila">3</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -345,7 +318,6 @@
 
 		<record id="butaca28" model="upoteatro.butaca">
 			<field name="asiento">28</field>
-			<field name="ocupada">false</field>
 			<field name="fila">3</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -353,7 +325,6 @@
 
 		<record id="butaca29" model="upoteatro.butaca">
 			<field name="asiento">29</field>
-			<field name="ocupada">false</field>
 			<field name="fila">3</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -361,7 +332,6 @@
 
 		<record id="butaca30" model="upoteatro.butaca">
 			<field name="asiento">30</field>
-			<field name="ocupada">false</field>
 			<field name="fila">3</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -369,7 +339,6 @@
 
 		<record id="butaca31" model="upoteatro.butaca">
 			<field name="asiento">31</field>
-			<field name="ocupada">false</field>
 			<field name="fila">3</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -377,7 +346,6 @@
 
 		<record id="butaca32" model="upoteatro.butaca">
 			<field name="asiento">32</field>
-			<field name="ocupada">false</field>
 			<field name="fila">3</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -385,7 +353,6 @@
 
 		<record id="butaca33" model="upoteatro.butaca">
 			<field name="asiento">33</field>
-			<field name="ocupada">false</field>
 			<field name="fila">4</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -393,7 +360,6 @@
 
 		<record id="butaca34" model="upoteatro.butaca">
 			<field name="asiento">34</field>
-			<field name="ocupada">false</field>
 			<field name="fila">4</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -401,7 +367,6 @@
 
 		<record id="butaca35" model="upoteatro.butaca">
 			<field name="asiento">35</field>
-			<field name="ocupada">false</field>
 			<field name="fila">4</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -409,7 +374,6 @@
 
 		<record id="butaca36" model="upoteatro.butaca">
 			<field name="asiento">36</field>
-			<field name="ocupada">false</field>
 			<field name="fila">4</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -417,7 +381,6 @@
 
 		<record id="butaca37" model="upoteatro.butaca">
 			<field name="asiento">37</field>
-			<field name="ocupada">false</field>
 			<field name="fila">4</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -425,7 +388,6 @@
 
 		<record id="butaca38" model="upoteatro.butaca">
 			<field name="asiento">38</field>
-			<field name="ocupada">false</field>
 			<field name="fila">4</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -433,7 +395,6 @@
 
 		<record id="butaca39" model="upoteatro.butaca">
 			<field name="asiento">39</field>
-			<field name="ocupada">false</field>
 			<field name="fila">4</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -441,7 +402,6 @@
 
 		<record id="butaca40" model="upoteatro.butaca">
 			<field name="asiento">40</field>
-			<field name="ocupada">false</field>
 			<field name="fila">4</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -449,7 +409,6 @@
 
 		<record id="butaca41" model="upoteatro.butaca">
 			<field name="asiento">41</field>
-			<field name="ocupada">false</field>
 			<field name="fila">4</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -457,7 +416,6 @@
 
 		<record id="butaca42" model="upoteatro.butaca">
 			<field name="asiento">42</field>
-			<field name="ocupada">false</field>
 			<field name="fila">4</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -465,7 +423,6 @@
 
 		<record id="butaca43" model="upoteatro.butaca">
 			<field name="asiento">43</field>
-			<field name="ocupada">false</field>
 			<field name="fila">4</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -473,7 +430,6 @@
 
 		<record id="butaca44" model="upoteatro.butaca">
 			<field name="asiento">44</field>
-			<field name="ocupada">false</field>
 			<field name="fila">5</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -481,7 +437,6 @@
 
 		<record id="butaca45" model="upoteatro.butaca">
 			<field name="asiento">45</field>
-			<field name="ocupada">false</field>
 			<field name="fila">5</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -489,7 +444,6 @@
 
 		<record id="butaca46" model="upoteatro.butaca">
 			<field name="asiento">46</field>
-			<field name="ocupada">false</field>
 			<field name="fila">5</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -497,7 +451,6 @@
 
 		<record id="butaca47" model="upoteatro.butaca">
 			<field name="asiento">47</field>
-			<field name="ocupada">false</field>
 			<field name="fila">5</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -505,7 +458,6 @@
 
 		<record id="butaca48" model="upoteatro.butaca">
 			<field name="asiento">48</field>
-			<field name="ocupada">false</field>
 			<field name="fila">5</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -513,7 +465,6 @@
 
 		<record id="butaca49" model="upoteatro.butaca">
 			<field name="asiento">49</field>
-			<field name="ocupada">false</field>
 			<field name="fila">5</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -521,7 +472,6 @@
 
 		<record id="butaca50" model="upoteatro.butaca">
 			<field name="asiento">50</field>
-			<field name="ocupada">false</field>
 			<field name="fila">5</field>
 			<field name="zona">platea</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -529,7 +479,6 @@
 
 		<record id="butaca51" model="upoteatro.butaca">
 			<field name="asiento">51</field>
-			<field name="ocupada">false</field>
 			<field name="fila">5</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -537,7 +486,6 @@
 
 		<record id="butaca52" model="upoteatro.butaca">
 			<field name="asiento">52</field>
-			<field name="ocupada">false</field>
 			<field name="fila">5</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -545,7 +493,6 @@
 
 		<record id="butaca53" model="upoteatro.butaca">
 			<field name="asiento">53</field>
-			<field name="ocupada">false</field>
 			<field name="fila">5</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -553,7 +500,6 @@
 
 		<record id="butaca54" model="upoteatro.butaca">
 			<field name="asiento">54</field>
-			<field name="ocupada">false</field>
 			<field name="fila">5</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -561,7 +507,6 @@
 
 		<record id="butaca55" model="upoteatro.butaca">
 			<field name="asiento">55</field>
-			<field name="ocupada">false</field>
 			<field name="fila">6</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -569,7 +514,6 @@
 
 		<record id="butaca56" model="upoteatro.butaca">
 			<field name="asiento">56</field>
-			<field name="ocupada">false</field>
 			<field name="fila">6</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -577,7 +521,6 @@
 
 		<record id="butaca57" model="upoteatro.butaca">
 			<field name="asiento">57</field>
-			<field name="ocupada">false</field>
 			<field name="fila">6</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -585,7 +528,6 @@
 
 		<record id="butaca58" model="upoteatro.butaca">
 			<field name="asiento">58</field>
-			<field name="ocupada">false</field>
 			<field name="fila">6</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -593,7 +535,6 @@
 
 		<record id="butaca59" model="upoteatro.butaca">
 			<field name="asiento">59</field>
-			<field name="ocupada">false</field>
 			<field name="fila">6</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -601,7 +542,6 @@
 
 		<record id="butaca60" model="upoteatro.butaca">
 			<field name="asiento">60</field>
-			<field name="ocupada">false</field>
 			<field name="fila">6</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -609,7 +549,6 @@
 
 		<record id="butaca61" model="upoteatro.butaca">
 			<field name="asiento">61</field>
-			<field name="ocupada">false</field>
 			<field name="fila">6</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -617,7 +556,6 @@
 
 		<record id="butaca62" model="upoteatro.butaca">
 			<field name="asiento">62</field>
-			<field name="ocupada">false</field>
 			<field name="fila">6</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -625,7 +563,6 @@
 
 		<record id="butaca63" model="upoteatro.butaca">
 			<field name="asiento">63</field>
-			<field name="ocupada">false</field>
 			<field name="fila">6</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -633,7 +570,6 @@
 
 		<record id="butaca64" model="upoteatro.butaca">
 			<field name="asiento">64</field>
-			<field name="ocupada">false</field>
 			<field name="fila">6</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -641,7 +577,6 @@
 
 		<record id="butaca65" model="upoteatro.butaca">
 			<field name="asiento">65</field>
-			<field name="ocupada">false</field>
 			<field name="fila">6</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -649,7 +584,6 @@
 
 		<record id="butaca66" model="upoteatro.butaca">
 			<field name="asiento">66</field>
-			<field name="ocupada">false</field>
 			<field name="fila">7</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -657,7 +591,6 @@
 
 		<record id="butaca67" model="upoteatro.butaca">
 			<field name="asiento">67</field>
-			<field name="ocupada">false</field>
 			<field name="fila">7</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -665,7 +598,6 @@
 
 		<record id="butaca68" model="upoteatro.butaca">
 			<field name="asiento">68</field>
-			<field name="ocupada">false</field>
 			<field name="fila">7</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -673,7 +605,6 @@
 
 		<record id="butaca69" model="upoteatro.butaca">
 			<field name="asiento">69</field>
-			<field name="ocupada">false</field>
 			<field name="fila">7</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -681,7 +612,6 @@
 
 		<record id="butaca70" model="upoteatro.butaca">
 			<field name="asiento">70</field>
-			<field name="ocupada">false</field>
 			<field name="fila">7</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -689,7 +619,6 @@
 
 		<record id="butaca71" model="upoteatro.butaca">
 			<field name="asiento">71</field>
-			<field name="ocupada">false</field>
 			<field name="fila">7</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -697,7 +626,6 @@
 
 		<record id="butaca72" model="upoteatro.butaca">
 			<field name="asiento">72</field>
-			<field name="ocupada">false</field>
 			<field name="fila">7</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -705,7 +633,6 @@
 
 		<record id="butaca73" model="upoteatro.butaca">
 			<field name="asiento">73</field>
-			<field name="ocupada">false</field>
 			<field name="fila">7</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -713,7 +640,6 @@
 
 		<record id="butaca74" model="upoteatro.butaca">
 			<field name="asiento">74</field>
-			<field name="ocupada">false</field>
 			<field name="fila">7</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -721,7 +647,6 @@
 
 		<record id="butaca75" model="upoteatro.butaca">
 			<field name="asiento">75</field>
-			<field name="ocupada">false</field>
 			<field name="fila">7</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -729,7 +654,6 @@
 
 		<record id="butaca76" model="upoteatro.butaca">
 			<field name="asiento">76</field>
-			<field name="ocupada">false</field>
 			<field name="fila">7</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -737,7 +661,6 @@
 
 		<record id="butaca77" model="upoteatro.butaca">
 			<field name="asiento">77</field>
-			<field name="ocupada">false</field>
 			<field name="fila">8</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -745,7 +668,6 @@
 
 		<record id="butaca78" model="upoteatro.butaca">
 			<field name="asiento">78</field>
-			<field name="ocupada">false</field>
 			<field name="fila">8</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -753,7 +675,6 @@
 
 		<record id="butaca79" model="upoteatro.butaca">
 			<field name="asiento">79</field>
-			<field name="ocupada">false</field>
 			<field name="fila">8</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -761,7 +682,6 @@
 
 		<record id="butaca80" model="upoteatro.butaca">
 			<field name="asiento">80</field>
-			<field name="ocupada">false</field>
 			<field name="fila">8</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -769,7 +689,6 @@
 
 		<record id="butaca81" model="upoteatro.butaca">
 			<field name="asiento">81</field>
-			<field name="ocupada">false</field>
 			<field name="fila">8</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -777,7 +696,6 @@
 
 		<record id="butaca82" model="upoteatro.butaca">
 			<field name="asiento">82</field>
-			<field name="ocupada">false</field>
 			<field name="fila">8</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -785,7 +703,6 @@
 
 		<record id="butaca83" model="upoteatro.butaca">
 			<field name="asiento">83</field>
-			<field name="ocupada">false</field>
 			<field name="fila">8</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -793,7 +710,6 @@
 
 		<record id="butaca84" model="upoteatro.butaca">
 			<field name="asiento">84</field>
-			<field name="ocupada">false</field>
 			<field name="fila">8</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -801,7 +717,6 @@
 
 		<record id="butaca85" model="upoteatro.butaca">
 			<field name="asiento">85</field>
-			<field name="ocupada">false</field>
 			<field name="fila">8</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -809,7 +724,6 @@
 
 		<record id="butaca86" model="upoteatro.butaca">
 			<field name="asiento">86</field>
-			<field name="ocupada">false</field>
 			<field name="fila">8</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -817,7 +731,6 @@
 
 		<record id="butaca87" model="upoteatro.butaca">
 			<field name="asiento">87</field>
-			<field name="ocupada">false</field>
 			<field name="fila">8</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -825,7 +738,6 @@
 
 		<record id="butaca88" model="upoteatro.butaca">
 			<field name="asiento">88</field>
-			<field name="ocupada">false</field>
 			<field name="fila">9</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -833,7 +745,6 @@
 
 		<record id="butaca89" model="upoteatro.butaca">
 			<field name="asiento">89</field>
-			<field name="ocupada">false</field>
 			<field name="fila">9</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -841,7 +752,6 @@
 
 		<record id="butaca90" model="upoteatro.butaca">
 			<field name="asiento">90</field>
-			<field name="ocupada">false</field>
 			<field name="fila">9</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -849,7 +759,6 @@
 
 		<record id="butaca91" model="upoteatro.butaca">
 			<field name="asiento">91</field>
-			<field name="ocupada">false</field>
 			<field name="fila">9</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -857,7 +766,6 @@
 
 		<record id="butaca92" model="upoteatro.butaca">
 			<field name="asiento">92</field>
-			<field name="ocupada">false</field>
 			<field name="fila">9</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -865,7 +773,6 @@
 
 		<record id="butaca93" model="upoteatro.butaca">
 			<field name="asiento">93</field>
-			<field name="ocupada">false</field>
 			<field name="fila">9</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -873,7 +780,6 @@
 
 		<record id="butaca94" model="upoteatro.butaca">
 			<field name="asiento">94</field>
-			<field name="ocupada">false</field>
 			<field name="fila">9</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -881,7 +787,6 @@
 
 		<record id="butaca95" model="upoteatro.butaca">
 			<field name="asiento">95</field>
-			<field name="ocupada">false</field>
 			<field name="fila">9</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -889,7 +794,6 @@
 
 		<record id="butaca96" model="upoteatro.butaca">
 			<field name="asiento">96</field>
-			<field name="ocupada">false</field>
 			<field name="fila">9</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -897,7 +801,6 @@
 
 		<record id="butaca97" model="upoteatro.butaca">
 			<field name="asiento">97</field>
-			<field name="ocupada">false</field>
 			<field name="fila">9</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -905,7 +808,6 @@
 
 		<record id="butaca98" model="upoteatro.butaca">
 			<field name="asiento">98</field>
-			<field name="ocupada">false</field>
 			<field name="fila">9</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -913,7 +815,6 @@
 
 		<record id="butaca99" model="upoteatro.butaca">
 			<field name="asiento">99</field>
-			<field name="ocupada">false</field>
 			<field name="fila">10</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -921,7 +822,6 @@
 
 		<record id="butaca100" model="upoteatro.butaca">
 			<field name="asiento">100</field>
-			<field name="ocupada">false</field>
 			<field name="fila">10</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -929,7 +829,6 @@
 
 		<record id="butaca101" model="upoteatro.butaca">
 			<field name="asiento">101</field>
-			<field name="ocupada">false</field>
 			<field name="fila">10</field>
 			<field name="zona">anfiteatro</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -937,7 +836,6 @@
 
 		<record id="butaca102" model="upoteatro.butaca">
 			<field name="asiento">102</field>
-			<field name="ocupada">false</field>
 			<field name="fila">10</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -945,7 +843,6 @@
 
 		<record id="butaca103" model="upoteatro.butaca">
 			<field name="asiento">103</field>
-			<field name="ocupada">false</field>
 			<field name="fila">10</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -953,7 +850,6 @@
 
 		<record id="butaca104" model="upoteatro.butaca">
 			<field name="asiento">104</field>
-			<field name="ocupada">false</field>
 			<field name="fila">10</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -961,7 +857,6 @@
 
 		<record id="butaca105" model="upoteatro.butaca">
 			<field name="asiento">105</field>
-			<field name="ocupada">false</field>
 			<field name="fila">10</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -969,7 +864,6 @@
 
 		<record id="butaca106" model="upoteatro.butaca">
 			<field name="asiento">106</field>
-			<field name="ocupada">false</field>
 			<field name="fila">10</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -977,7 +871,6 @@
 
 		<record id="butaca107" model="upoteatro.butaca">
 			<field name="asiento">107</field>
-			<field name="ocupada">false</field>
 			<field name="fila">10</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -985,7 +878,6 @@
 
 		<record id="butaca108" model="upoteatro.butaca">
 			<field name="asiento">108</field>
-			<field name="ocupada">false</field>
 			<field name="fila">10</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -993,7 +885,6 @@
 
 		<record id="butaca109" model="upoteatro.butaca">
 			<field name="asiento">109</field>
-			<field name="ocupada">false</field>
 			<field name="fila">10</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1001,7 +892,6 @@
 
 		<record id="butaca110" model="upoteatro.butaca">
 			<field name="asiento">110</field>
-			<field name="ocupada">false</field>
 			<field name="fila">11</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1009,7 +899,6 @@
 
 		<record id="butaca111" model="upoteatro.butaca">
 			<field name="asiento">111</field>
-			<field name="ocupada">false</field>
 			<field name="fila">11</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1017,7 +906,6 @@
 
 		<record id="butaca112" model="upoteatro.butaca">
 			<field name="asiento">112</field>
-			<field name="ocupada">false</field>
 			<field name="fila">11</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1025,7 +913,6 @@
 
 		<record id="butaca113" model="upoteatro.butaca">
 			<field name="asiento">113</field>
-			<field name="ocupada">false</field>
 			<field name="fila">11</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1033,7 +920,6 @@
 
 		<record id="butaca114" model="upoteatro.butaca">
 			<field name="asiento">114</field>
-			<field name="ocupada">false</field>
 			<field name="fila">11</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1041,7 +927,6 @@
 
 		<record id="butaca115" model="upoteatro.butaca">
 			<field name="asiento">115</field>
-			<field name="ocupada">false</field>
 			<field name="fila">11</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1049,7 +934,6 @@
 
 		<record id="butaca116" model="upoteatro.butaca">
 			<field name="asiento">116</field>
-			<field name="ocupada">false</field>
 			<field name="fila">11</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1057,7 +941,6 @@
 
 		<record id="butaca117" model="upoteatro.butaca">
 			<field name="asiento">117</field>
-			<field name="ocupada">false</field>
 			<field name="fila">11</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1065,7 +948,6 @@
 
 		<record id="butaca118" model="upoteatro.butaca">
 			<field name="asiento">118</field>
-			<field name="ocupada">false</field>
 			<field name="fila">11</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1073,7 +955,6 @@
 
 		<record id="butaca119" model="upoteatro.butaca">
 			<field name="asiento">119</field>
-			<field name="ocupada">false</field>
 			<field name="fila">11</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1081,7 +962,6 @@
 
 		<record id="butaca120" model="upoteatro.butaca">
 			<field name="asiento">120</field>
-			<field name="ocupada">false</field>
 			<field name="fila">11</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1089,7 +969,6 @@
 
 		<record id="butaca121" model="upoteatro.butaca">
 			<field name="asiento">121</field>
-			<field name="ocupada">false</field>
 			<field name="fila">12</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1097,7 +976,6 @@
 
 		<record id="butaca122" model="upoteatro.butaca">
 			<field name="asiento">122</field>
-			<field name="ocupada">false</field>
 			<field name="fila">12</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1105,7 +983,6 @@
 
 		<record id="butaca123" model="upoteatro.butaca">
 			<field name="asiento">123</field>
-			<field name="ocupada">false</field>
 			<field name="fila">12</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1113,7 +990,6 @@
 
 		<record id="butaca124" model="upoteatro.butaca">
 			<field name="asiento">124</field>
-			<field name="ocupada">false</field>
 			<field name="fila">12</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1121,7 +997,6 @@
 
 		<record id="butaca125" model="upoteatro.butaca">
 			<field name="asiento">125</field>
-			<field name="ocupada">false</field>
 			<field name="fila">12</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1129,7 +1004,6 @@
 
 		<record id="butaca126" model="upoteatro.butaca">
 			<field name="asiento">126</field>
-			<field name="ocupada">false</field>
 			<field name="fila">12</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1137,7 +1011,6 @@
 
 		<record id="butaca127" model="upoteatro.butaca">
 			<field name="asiento">127</field>
-			<field name="ocupada">false</field>
 			<field name="fila">12</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1145,7 +1018,6 @@
 
 		<record id="butaca128" model="upoteatro.butaca">
 			<field name="asiento">128</field>
-			<field name="ocupada">false</field>
 			<field name="fila">12</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1153,7 +1025,6 @@
 
 		<record id="butaca129" model="upoteatro.butaca">
 			<field name="asiento">129</field>
-			<field name="ocupada">false</field>
 			<field name="fila">12</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1161,7 +1032,6 @@
 
 		<record id="butaca130" model="upoteatro.butaca">
 			<field name="asiento">130</field>
-			<field name="ocupada">false</field>
 			<field name="fila">12</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1169,7 +1039,6 @@
 
 		<record id="butaca131" model="upoteatro.butaca">
 			<field name="asiento">131</field>
-			<field name="ocupada">false</field>
 			<field name="fila">12</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1177,7 +1046,6 @@
 
 		<record id="butaca132" model="upoteatro.butaca">
 			<field name="asiento">132</field>
-			<field name="ocupada">false</field>
 			<field name="fila">13</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1185,7 +1053,6 @@
 
 		<record id="butaca133" model="upoteatro.butaca">
 			<field name="asiento">133</field>
-			<field name="ocupada">false</field>
 			<field name="fila">13</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1193,7 +1060,6 @@
 
 		<record id="butaca134" model="upoteatro.butaca">
 			<field name="asiento">134</field>
-			<field name="ocupada">false</field>
 			<field name="fila">13</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1201,7 +1067,6 @@
 
 		<record id="butaca135" model="upoteatro.butaca">
 			<field name="asiento">135</field>
-			<field name="ocupada">false</field>
 			<field name="fila">13</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1209,7 +1074,6 @@
 
 		<record id="butaca136" model="upoteatro.butaca">
 			<field name="asiento">136</field>
-			<field name="ocupada">false</field>
 			<field name="fila">13</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1217,7 +1081,6 @@
 
 		<record id="butaca137" model="upoteatro.butaca">
 			<field name="asiento">137</field>
-			<field name="ocupada">false</field>
 			<field name="fila">13</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1225,7 +1088,6 @@
 
 		<record id="butaca138" model="upoteatro.butaca">
 			<field name="asiento">138</field>
-			<field name="ocupada">false</field>
 			<field name="fila">13</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1233,7 +1095,6 @@
 
 		<record id="butaca139" model="upoteatro.butaca">
 			<field name="asiento">139</field>
-			<field name="ocupada">false</field>
 			<field name="fila">13</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1241,7 +1102,6 @@
 
 		<record id="butaca140" model="upoteatro.butaca">
 			<field name="asiento">140</field>
-			<field name="ocupada">false</field>
 			<field name="fila">13</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1249,7 +1109,6 @@
 
 		<record id="butaca141" model="upoteatro.butaca">
 			<field name="asiento">141</field>
-			<field name="ocupada">false</field>
 			<field name="fila">13</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1257,7 +1116,6 @@
 
 		<record id="butaca142" model="upoteatro.butaca">
 			<field name="asiento">142</field>
-			<field name="ocupada">false</field>
 			<field name="fila">13</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1265,7 +1123,6 @@
 
 		<record id="butaca143" model="upoteatro.butaca">
 			<field name="asiento">143</field>
-			<field name="ocupada">false</field>
 			<field name="fila">14</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1273,7 +1130,6 @@
 
 		<record id="butaca144" model="upoteatro.butaca">
 			<field name="asiento">144</field>
-			<field name="ocupada">false</field>
 			<field name="fila">14</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1281,7 +1137,6 @@
 
 		<record id="butaca145" model="upoteatro.butaca">
 			<field name="asiento">145</field>
-			<field name="ocupada">false</field>
 			<field name="fila">14</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1289,7 +1144,6 @@
 
 		<record id="butaca146" model="upoteatro.butaca">
 			<field name="asiento">146</field>
-			<field name="ocupada">false</field>
 			<field name="fila">14</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1297,7 +1151,6 @@
 
 		<record id="butaca147" model="upoteatro.butaca">
 			<field name="asiento">147</field>
-			<field name="ocupada">false</field>
 			<field name="fila">14</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1305,7 +1158,6 @@
 
 		<record id="butaca148" model="upoteatro.butaca">
 			<field name="asiento">148</field>
-			<field name="ocupada">false</field>
 			<field name="fila">14</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1313,7 +1165,6 @@
 
 		<record id="butaca149" model="upoteatro.butaca">
 			<field name="asiento">149</field>
-			<field name="ocupada">false</field>
 			<field name="fila">14</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1321,7 +1172,6 @@
 
 		<record id="butaca150" model="upoteatro.butaca">
 			<field name="asiento">150</field>
-			<field name="ocupada">false</field>
 			<field name="fila">14</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1329,7 +1179,6 @@
 
 		<record id="butaca151" model="upoteatro.butaca">
 			<field name="asiento">151</field>
-			<field name="ocupada">false</field>
 			<field name="fila">14</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1337,7 +1186,6 @@
 
 		<record id="butaca152" model="upoteatro.butaca">
 			<field name="asiento">152</field>
-			<field name="ocupada">false</field>
 			<field name="fila">14</field>
 			<field name="zona">paraiso</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1345,7 +1193,6 @@
 
 		<record id="butaca153" model="upoteatro.butaca">
 			<field name="asiento">153</field>
-			<field name="ocupada">false</field>
 			<field name="fila">14</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1353,7 +1200,6 @@
 
 		<record id="butaca154" model="upoteatro.butaca">
 			<field name="asiento">154</field>
-			<field name="ocupada">false</field>
 			<field name="fila">15</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1361,7 +1207,6 @@
 
 		<record id="butaca155" model="upoteatro.butaca">
 			<field name="asiento">155</field>
-			<field name="ocupada">false</field>
 			<field name="fila">15</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1369,7 +1214,6 @@
 
 		<record id="butaca156" model="upoteatro.butaca">
 			<field name="asiento">156</field>
-			<field name="ocupada">false</field>
 			<field name="fila">15</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1377,7 +1221,6 @@
 
 		<record id="butaca157" model="upoteatro.butaca">
 			<field name="asiento">157</field>
-			<field name="ocupada">false</field>
 			<field name="fila">15</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1385,7 +1228,6 @@
 
 		<record id="butaca158" model="upoteatro.butaca">
 			<field name="asiento">158</field>
-			<field name="ocupada">false</field>
 			<field name="fila">15</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1393,7 +1235,6 @@
 
 		<record id="butaca159" model="upoteatro.butaca">
 			<field name="asiento">159</field>
-			<field name="ocupada">false</field>
 			<field name="fila">15</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1401,7 +1242,6 @@
 
 		<record id="butaca160" model="upoteatro.butaca">
 			<field name="asiento">160</field>
-			<field name="ocupada">false</field>
 			<field name="fila">15</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1409,7 +1249,6 @@
 
 		<record id="butaca161" model="upoteatro.butaca">
 			<field name="asiento">161</field>
-			<field name="ocupada">false</field>
 			<field name="fila">15</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1417,7 +1256,6 @@
 
 		<record id="butaca162" model="upoteatro.butaca">
 			<field name="asiento">162</field>
-			<field name="ocupada">false</field>
 			<field name="fila">15</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1425,7 +1263,6 @@
 
 		<record id="butaca163" model="upoteatro.butaca">
 			<field name="asiento">163</field>
-			<field name="ocupada">false</field>
 			<field name="fila">15</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1433,7 +1270,6 @@
 
 		<record id="butaca164" model="upoteatro.butaca">
 			<field name="asiento">164</field>
-			<field name="ocupada">false</field>
 			<field name="fila">15</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1441,7 +1277,6 @@
 
 		<record id="butaca165" model="upoteatro.butaca">
 			<field name="asiento">165</field>
-			<field name="ocupada">false</field>
 			<field name="fila">16</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1449,7 +1284,6 @@
 
 		<record id="butaca166" model="upoteatro.butaca">
 			<field name="asiento">166</field>
-			<field name="ocupada">false</field>
 			<field name="fila">16</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1457,7 +1291,6 @@
 
 		<record id="butaca167" model="upoteatro.butaca">
 			<field name="asiento">167</field>
-			<field name="ocupada">false</field>
 			<field name="fila">16</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1465,7 +1298,6 @@
 
 		<record id="butaca168" model="upoteatro.butaca">
 			<field name="asiento">168</field>
-			<field name="ocupada">false</field>
 			<field name="fila">16</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1473,7 +1305,6 @@
 
 		<record id="butaca169" model="upoteatro.butaca">
 			<field name="asiento">169</field>
-			<field name="ocupada">false</field>
 			<field name="fila">16</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1481,7 +1312,6 @@
 
 		<record id="butaca170" model="upoteatro.butaca">
 			<field name="asiento">170</field>
-			<field name="ocupada">false</field>
 			<field name="fila">16</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1489,7 +1319,6 @@
 
 		<record id="butaca171" model="upoteatro.butaca">
 			<field name="asiento">171</field>
-			<field name="ocupada">false</field>
 			<field name="fila">16</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1497,7 +1326,6 @@
 
 		<record id="butaca172" model="upoteatro.butaca">
 			<field name="asiento">172</field>
-			<field name="ocupada">false</field>
 			<field name="fila">16</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1505,7 +1333,6 @@
 
 		<record id="butaca173" model="upoteatro.butaca">
 			<field name="asiento">173</field>
-			<field name="ocupada">false</field>
 			<field name="fila">16</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1513,7 +1340,6 @@
 
 		<record id="butaca174" model="upoteatro.butaca">
 			<field name="asiento">174</field>
-			<field name="ocupada">false</field>
 			<field name="fila">16</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1521,7 +1347,6 @@
 
 		<record id="butaca175" model="upoteatro.butaca">
 			<field name="asiento">175</field>
-			<field name="ocupada">false</field>
 			<field name="fila">16</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1529,7 +1354,6 @@
 
 		<record id="butaca176" model="upoteatro.butaca">
 			<field name="asiento">176</field>
-			<field name="ocupada">false</field>
 			<field name="fila">17</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1537,7 +1361,6 @@
 
 		<record id="butaca177" model="upoteatro.butaca">
 			<field name="asiento">177</field>
-			<field name="ocupada">false</field>
 			<field name="fila">17</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1545,7 +1368,6 @@
 
 		<record id="butaca178" model="upoteatro.butaca">
 			<field name="asiento">178</field>
-			<field name="ocupada">false</field>
 			<field name="fila">17</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1553,7 +1375,6 @@
 
 		<record id="butaca179" model="upoteatro.butaca">
 			<field name="asiento">179</field>
-			<field name="ocupada">false</field>
 			<field name="fila">17</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1561,7 +1382,6 @@
 
 		<record id="butaca180" model="upoteatro.butaca">
 			<field name="asiento">180</field>
-			<field name="ocupada">false</field>
 			<field name="fila">17</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1569,7 +1389,6 @@
 
 		<record id="butaca181" model="upoteatro.butaca">
 			<field name="asiento">181</field>
-			<field name="ocupada">false</field>
 			<field name="fila">17</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1577,7 +1396,6 @@
 
 		<record id="butaca182" model="upoteatro.butaca">
 			<field name="asiento">182</field>
-			<field name="ocupada">false</field>
 			<field name="fila">17</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1585,7 +1403,6 @@
 
 		<record id="butaca183" model="upoteatro.butaca">
 			<field name="asiento">183</field>
-			<field name="ocupada">false</field>
 			<field name="fila">17</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1593,7 +1410,6 @@
 
 		<record id="butaca184" model="upoteatro.butaca">
 			<field name="asiento">184</field>
-			<field name="ocupada">false</field>
 			<field name="fila">17</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1601,7 +1417,6 @@
 
 		<record id="butaca185" model="upoteatro.butaca">
 			<field name="asiento">185</field>
-			<field name="ocupada">false</field>
 			<field name="fila">17</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1609,7 +1424,6 @@
 
 		<record id="butaca186" model="upoteatro.butaca">
 			<field name="asiento">186</field>
-			<field name="ocupada">false</field>
 			<field name="fila">17</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1617,7 +1431,6 @@
 
 		<record id="butaca187" model="upoteatro.butaca">
 			<field name="asiento">187</field>
-			<field name="ocupada">false</field>
 			<field name="fila">18</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1625,7 +1438,6 @@
 
 		<record id="butaca188" model="upoteatro.butaca">
 			<field name="asiento">188</field>
-			<field name="ocupada">false</field>
 			<field name="fila">18</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1633,7 +1445,6 @@
 
 		<record id="butaca189" model="upoteatro.butaca">
 			<field name="asiento">189</field>
-			<field name="ocupada">false</field>
 			<field name="fila">18</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1641,7 +1452,6 @@
 
 		<record id="butaca190" model="upoteatro.butaca">
 			<field name="asiento">190</field>
-			<field name="ocupada">false</field>
 			<field name="fila">18</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1649,7 +1459,6 @@
 
 		<record id="butaca191" model="upoteatro.butaca">
 			<field name="asiento">191</field>
-			<field name="ocupada">false</field>
 			<field name="fila">18</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1657,7 +1466,6 @@
 
 		<record id="butaca192" model="upoteatro.butaca">
 			<field name="asiento">192</field>
-			<field name="ocupada">false</field>
 			<field name="fila">18</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1665,7 +1473,6 @@
 
 		<record id="butaca193" model="upoteatro.butaca">
 			<field name="asiento">193</field>
-			<field name="ocupada">false</field>
 			<field name="fila">18</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1673,7 +1480,6 @@
 
 		<record id="butaca194" model="upoteatro.butaca">
 			<field name="asiento">194</field>
-			<field name="ocupada">false</field>
 			<field name="fila">18</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1681,7 +1487,6 @@
 
 		<record id="butaca195" model="upoteatro.butaca">
 			<field name="asiento">195</field>
-			<field name="ocupada">false</field>
 			<field name="fila">18</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1689,7 +1494,6 @@
 
 		<record id="butaca196" model="upoteatro.butaca">
 			<field name="asiento">196</field>
-			<field name="ocupada">false</field>
 			<field name="fila">18</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1697,7 +1501,6 @@
 
 		<record id="butaca197" model="upoteatro.butaca">
 			<field name="asiento">197</field>
-			<field name="ocupada">false</field>
 			<field name="fila">18</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1705,7 +1508,6 @@
 
 		<record id="butaca198" model="upoteatro.butaca">
 			<field name="asiento">198</field>
-			<field name="ocupada">false</field>
 			<field name="fila">19</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1713,7 +1515,6 @@
 
 		<record id="butaca199" model="upoteatro.butaca">
 			<field name="asiento">199</field>
-			<field name="ocupada">false</field>
 			<field name="fila">19</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>
@@ -1721,7 +1522,6 @@
 
 		<record id="butaca200" model="upoteatro.butaca">
 			<field name="asiento">200</field>
-			<field name="ocupada">false</field>
 			<field name="fila">19</field>
 			<field name="zona">palco</field>
 			<field name="teatro_id" ref="teatro1"></field>

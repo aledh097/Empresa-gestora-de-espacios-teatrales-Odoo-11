@@ -10,5 +10,5 @@ class entrada(models.Model):
     esAdaptada = fields.Boolean('Es adaptada',required=True)
     precio = fields.Float('Precio',required=True)
     representacion_id = fields.Many2one('upoteatro.representacion',string='Representación',required=True)
-    porcentajeDescuento = fields.Integer('% de descuento',required=True)
+    porcentajeDescuento = fields.Integer('% de descuento',required=True, default=0)
     butacas_ids = fields.Many2many('upoteatro.butaca',string='Butacas')
