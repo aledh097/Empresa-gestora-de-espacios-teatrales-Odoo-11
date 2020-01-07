@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+		<record model="ir.ui.view" id="upoteatro_extension.entradagrupal_form">
+			<field name="name">Entrada Grupal</field>
+			<field name="model">upoteatro_extension.entradagrupal</field>
+			<field name="arch" type="xml">
+				<form string="Form of entradagrupal">
+					<group string="Entradas Grupales">
+						<field name="numeroPersonas" />
+					</group>
+
+				</form>
+			</field>
+		</record>
+		<record model="ir.ui.view" id="upoteatro_extension.entradagrupal_tree">
+			<field name="name">Entrada Grupal</field>
+			<field name="model">upoteatro_extension.entradagrupal</field>
+			<field name="arch" type="xml">
+				<tree string="List of Entradas Grupales">
+						<field name="numeroPersonas" />
+				</tree>
+			</field>
+		</record>
+
+		<record id="act_entradagrupal" model="ir.actions.act_window">
+			<field name="name">Entrada Grupal</field>
+			<field name="res_model">upoteatro_extension.entradagrupal</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+		<menuitem id="upoteatro_extension_submenu" name="upoteatro Extension"
+			parent="upoteatro.upoteatro" />
+		<menuitem name="Ver entradas grupales" id="entradagrupal_submenu_2"
+			parent="upoteatro_extension_submenu" sequence="100" action="act_entradagrupal"/>
+
+	</data>
+</odoo> 

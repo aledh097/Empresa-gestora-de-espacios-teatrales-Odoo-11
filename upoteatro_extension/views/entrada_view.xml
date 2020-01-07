@@ -12,6 +12,7 @@
 				<data>
 					<field name="representacion_id" position="after">
 						<field name="entradaIndividual_id"/>
+						<field name="entradaGrupal_id"/>
 					</field>
 				</data>
 			</field>
