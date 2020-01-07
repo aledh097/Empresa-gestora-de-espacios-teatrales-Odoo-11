@@ -10,4 +10,3 @@ class teatro(models.Model):
     aforo = fields.Integer('Aforo', required=True)
     representaciones_ids = fields.One2many('upoteatro.representacion','teatro_id','Representaciones')
     butacas_ids = fields.One2many('upoteatro.butaca','teatro_id','Butacas')
-    
