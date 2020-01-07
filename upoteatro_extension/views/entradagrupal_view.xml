@@ -8,6 +8,7 @@
 				<form string="Form of entradagrupal">
 					<group string="Entradas Grupales">
 						<field name="numeroPersonas" />
+						<field name="autobus" />
 					</group>
 
 				</form>
@@ -19,6 +20,7 @@
 			<field name="arch" type="xml">
 				<tree string="List of Entradas Grupales">
 						<field name="numeroPersonas" />
+						<field name="autobus" />
 				</tree>
 			</field>
 		</record>

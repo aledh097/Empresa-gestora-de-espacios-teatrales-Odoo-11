@@ -7,3 +7,4 @@ class entradaindividual(models.Model):
     _rec_name = 'numeroPersonas'
     
     numeroPersonas = fields.Integer('Número de personas',required=True)
+    autobus = fields.Many2one('upoteatro_extension.autobus',string='Autobús')

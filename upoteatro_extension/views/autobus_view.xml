@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+		<record model="ir.ui.view" id="upoteatro_extension.autobus_form">
+			<field name="name">Autobus</field>
+			<field name="model">upoteatro_extension.autobus</field>
+			<field name="arch" type="xml">
+				<form string="Form of autobus">
+					<group string="Autobuses">
+						<field name="matricula" />
+						<field name="capacidad" />
+						<field name="entradasGrupales" />
+					</group>
+
+				</form>
+			</field>
+		</record>
+		<record model="ir.ui.view" id="upoteatro_extension.autobus_tree">
+			<field name="name">Autobus</field>
+			<field name="model">upoteatro_extension.autobus</field>
+			<field name="arch" type="xml">
+				<tree string="List of Autobuses">
+						<field name="matricula" />
+						<field name="capacidad" />
+						<field name="entradasGrupales" />				
+				</tree>
+			</field>
+		</record>
+
+		<record id="act_autobus" model="ir.actions.act_window">
+			<field name="name">Autobus</field>
+			<field name="res_model">upoteatro_extension.autobus</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+		<menuitem id="upoteatro_extension_submenu" name="upoteatro Extension"
+			parent="upoteatro.upoteatro" />
+		<menuitem name="Ver autobuses" id="autobus_submenu_2"
+			parent="upoteatro_extension_submenu" sequence="100" action="act_autobus"/>
+
+	</data>
+</odoo> 
