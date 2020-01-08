@@ -1530,38 +1530,7 @@ xx		<record id="butaca1" model="upoteatro.butaca">
 
 		<record id="teatro1" model="upoteatro.teatro">
 			<field name="butacas_ids"
-				eval="[(6, 0, [butaca1,butaca2,butaca3,butaca4,butaca5,butaca6,butaca7,butaca8,butaca9,butaca10,butaca11,butaca12,butaca13,butaca14,butaca15,butaca16,butaca17,butaca18,butaca19,butaca20,butaca21,butaca22,butaca23,butaca24,butaca25,butaca26,butaca27,butaca28,butaca29,butaca30,butaca31,butaca32,butaca33,butaca34,butaca35,butaca36,butaca37,butaca38,butaca39,butaca40,butaca41,butaca42,butaca43,butaca44,butaca45,butaca46,butaca47,butaca48,butaca49,butaca50,butaca51,butaca52,butaca53,butaca54,butaca55,butaca56,butaca57,butaca58,butaca59,butaca60,butaca61,butaca62,butaca63,butaca64,butaca65,butaca66,butaca67,butaca68,butaca69,butaca70,butaca71,butaca72,butaca73,butaca74,butaca75,butaca76,butaca77,butaca78,butaca79,butaca80,butaca81,butaca82,butaca83,butaca84,butaca85,butaca86,butaca87,butaca88,butaca89,butaca90,butaca91,butaca92,butaca93,butaca94,butaca95,butaca96,butaca97,butaca98,butaca99,butaca100,butaca101,butaca102,butaca103,butaca104,butaca105,butaca106,butaca107,butaca108,butaca109,butaca110,butaca111,butaca112,butaca113,butaca114,butaca115,butaca116,butaca117,butaca118,butaca119,butaca120,butaca121,butaca122,butaca123,butaca124,butaca125,butaca126,butaca127,butaca128,butaca129,butaca130,butaca131,butaca132,butaca133,butaca134,butaca135,butaca136,butaca137,butaca138,butaca139,butaca140,butaca141,butaca142,butaca143,butaca144,butaca145,butaca146,butaca147,butaca148,butaca149,butaca150,butaca151,butaca152,butaca153,butaca154,butaca155,butaca156,butaca157,butaca158,butaca159,butaca160,butaca161,butaca162,butaca163,butaca164,butaca165,butaca166,butaca167,butaca168,butaca169,butaca170,butaca171,butaca172,butaca173,butaca174,butaca175,butaca176,butaca177,butaca178,butaca179,butaca180,butaca181,butaca182,butaca183,butaca184,butaca185,butaca186,butaca187,butaca188,butaca189,butaca190,butaca191,butaca192,butaca193,butaca194,butaca195,butaca196,buatca197,butaca198,butaca199,butaca200])]"></field>
+				eval="[(6, 0, [butaca1,butaca2,butaca3,butaca4,butaca5,butaca6,butaca7,butaca8,butaca9,butaca10,butaca11,butaca12,butaca13,butaca14,butaca15,butaca16,butaca17,butaca18,butaca19,butaca20,butaca21,butaca22,butaca23,butaca24,butaca25,butaca26,butaca27,butaca28,butaca29,butaca30,butaca31,butaca32,butaca33,butaca34,butaca35,butaca36,butaca37,butaca38,butaca39,butaca40,butaca41,butaca42,butaca43,butaca44,butaca45,butaca46,butaca47,butaca48,butaca49,butaca50,butaca51,butaca52,butaca53,butaca54,butaca55,butaca56,butaca57,butaca58,butaca59,butaca60,butaca61,butaca62,butaca63,butaca64,butaca65,butaca66,butaca67,butaca68,butaca69,butaca70,butaca71,butaca72,butaca73,butaca74,butaca75,butaca76,butaca77,butaca78,butaca79,butaca80,butaca81,butaca82,butaca83,butaca84,butaca85,butaca86,butaca87,butaca88,butaca89,butaca90,butaca91,butaca92,butaca93,butaca94,butaca95,butaca96,butaca97,butaca98,butaca99,butaca100,butaca101,butaca102,butaca103,butaca104,butaca105,butaca106,butaca107,butaca108,butaca109,butaca110,butaca111,butaca112,butaca113,butaca114,butaca115,butaca116,butaca117,butaca118,butaca119,butaca120,butaca121,butaca122,butaca123,butaca124,butaca125,butaca126,butaca127,butaca128,butaca129,butaca130,butaca131,butaca132,butaca133,butaca134,butaca135,butaca136,butaca137,butaca138,butaca139,butaca140,butaca141,butaca142,butaca143,butaca144,butaca145,butaca146,butaca147,butaca148,butaca149,butaca150,butaca151,butaca152,butaca153,butaca154,butaca155,butaca156,butaca157,butaca158,butaca159,butaca160,butaca161,butaca162,butaca163,butaca164,butaca165,butaca166,butaca167,butaca168,butaca169,butaca170,butaca171,butaca172,butaca173,butaca174,butaca175,butaca176,butaca177,butaca178,butaca179,butaca180,butaca181,butaca182,butaca183,butaca184,butaca185,butaca186,butaca187,butaca188,butaca189,butaca190,butaca191,butaca192,butaca193,butaca194,butaca195,butaca196,butaca197,butaca198,butaca199,butaca200])]"></field>
 		</record>
-
-		<record id="entrada1" model="upoteatro.entrada">
-			<field name="representacion_id" ref="representacion1"></field>
-			<field name="haEntrado">false</field>
-			<field name="esAdaptada">false</field>
-			<field name="precio">22</field>
-			<field name="porcentajeDescuento">25</field>
-			<field name="butacas_ids" eval="[(6, 0, [butaca1])]"></field>
-		</record>
-
-		<record id="entrada2" model="upoteatro.entrada">
-			<field name="representacion_id" ref="representacion1"></field>
-			<field name="haEntrado">true</field>
-			<field name="esAdaptada">false</field>
-			<field name="precio">22</field>
-			<field name="porcentajeDescuento">25</field>
-			<field name="butacas_ids" eval="[(6, 0, [butaca2])]"></field>
-		</record>
-
-		<record id="entrada3" model="upoteatro.entrada">
-			<field name="representacion_id" ref="representacion4"></field>
-			<field name="haEntrado">false</field>
-			<field name="esAdaptada">true</field>
-			<field name="precio">15</field>
-			<field name="porcentajeDescuento">50</field>
-			<field name="butacas_ids"
-				eval="[(6, 0, [butaca3,butaca4,butaca5,butaca6,butaca7,butaca8,butaca9,butaca10])]"></field>
-		</record>
-
-
-
 	</data>
 </odoo>
