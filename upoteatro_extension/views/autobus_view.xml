@@ -6,6 +6,17 @@
 			<field name="model">upoteatro_extension.autobus</field>
 			<field name="arch" type="xml">
 				<form string="Form of autobus">
+					<header>
+						<button name="btn_submit_to_preparado" string="Autobús Preparado"
+							type="object" class="oe_highlight" states="noPreparado" />
+						<button name="btn_submit_to_enMarcha" string="Autobús en marcha"
+							type="object" class="oe_highlight" states="preparado" />
+						<button name="btn_submit_to_finTrayecto" string="Autobús llegó a su destino"
+							type="object" class="oe_highlight" states="enMarcha" />
+						<button name="btn_submit_to_noPreparado" string="Autobús No Preparado"
+							type="object" class="oe_highlight" states="finTrayecto" />
+							<field name='state' widget='statusbar' />
+					</header>
 					<group string="Autobuses">
 						<field name="matricula" />
 						<field name="capacidad" />

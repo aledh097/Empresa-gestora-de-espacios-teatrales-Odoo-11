@@ -19,3 +19,12 @@ class espectaculo(models.Model):
     representacion_ids = fields.One2many('upoteatro.representacion','espectaculo_id','Representaciones')
     obras_ids = fields.Many2many('upoteatro.obra',string='Obras')
     companias_ids = fields.Many2many('upoteatro.compania',string='Compañías')
+    state = fields.Selection([('propuesto','Propuesto'),('admitido','Admitido'),('rechazado','Rechazado')],'Estado',default='propuesto')
+
+    @api.one
+    def btn_submit_to_admitido(self):
+        self.write({'state':'admitido'})
+
+    @api.one
+    def btn_submit_to_rechazado(self):
+        self.write({'state':'rechazado'})

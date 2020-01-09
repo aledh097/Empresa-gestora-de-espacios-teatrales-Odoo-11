@@ -10,6 +10,17 @@
 			<field name="model">upoteatro.espectaculo</field>
 			<field name="arch" type="xml">
 				<form string="Form of espectaculo">
+					<header>
+						<button name="btn_submit_to_admitido" string="Admitir Espectáculo"
+							type="object" class="oe_highlight" states="propuesto" />
+						<button name="btn_submit_to_rechazado" string="Rechazar Espectáculo"
+							type="object" class="oe_highlight" states="propuesto" />
+						<button name="btn_submit_to_rechazado" string="Rechazar Espectáculo"
+							type="object" class="oe_highlight" states="admitido" />
+						<button name="btn_submit_to_admitido" string="Admitir Espectáculo"
+							type="object" class="oe_highlight" states="rechazado" />
+							<field name='state' widget='statusbar' />
+					</header>
 					<group string="Espectaculo">
 						<field name="name" />
 						<field name="productor" />
