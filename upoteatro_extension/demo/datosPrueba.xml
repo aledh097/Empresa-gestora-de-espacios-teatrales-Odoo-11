@@ -15,13 +15,13 @@
 			<field name="autobus" ref="autobus1"></field>
 		</record>
 
-				<record id="entrada1" model="upoteatro.entrada">
+		<record id="entrada1" model="upoteatro.entrada">
 			<field name="representacion_id" ref="upoteatro.representacion1"></field>
 			<field name="haEntrado">false</field>
 			<field name="esAdaptada">false</field>
 			<field name="precio">22</field>
 			<field name="porcentajeDescuento">25</field>
-			<field name="butacas_ids" eval="[(6, 0, [ref(upoteatro.butaca1)])]"></field>
+			<field name="butacas_ids" eval="[(6, 0, [ref('upoteatro.butaca1')])]"></field>
 			<field name="entradaIndividual_id" ref="entradaIndividual1"></field>
 		</record>
 
@@ -31,7 +31,7 @@
 			<field name="esAdaptada">false</field>
 			<field name="precio">22</field>
 			<field name="porcentajeDescuento">25</field>
-			<field name="butacas_ids" eval="[(6, 0, [ref(upoteatro.butaca2)])]" model="upoteatro.butaca"></field>
+			<field name="butacas_ids" eval="[(6, 0, [ref('upoteatro.butaca2')])]" model="upoteatro.butaca"></field>
 			<field name="entradaIndividual_id" ref="entradaIndividual2"></field>
 		</record>
 
@@ -42,7 +42,7 @@
 			<field name="precio">15</field>
 			<field name="porcentajeDescuento">50</field>
 			<field name="butacas_ids"
-				eval="[(6, 0, [ref(upoteatro.butaca3),ref(upoteatro.butaca4),ref(upoteatro.butaca5),ref(upoteatro.butaca6),ref(upoteatro.butaca7),ref(upoteatro.butaca8),ref(upoteatro.butaca9),ref(upoteatro.butaca10)])]" model="upoteatro.butaca"></field>
+				eval="[(6, 0, [ref('upoteatro.butaca3'),ref('upoteatro.butaca4'),ref('upoteatro.butaca5'),ref('upoteatro.butaca6'),ref('upoteatro.butaca7'),ref('upoteatro.butaca8'),ref('upoteatro.butaca9'),ref('upoteatro.butaca10')])]" model="upoteatro.butaca"></field>
 			<field name="entradaGrupal_id" ref="entradagrupal1"></field>
 		</record>
 

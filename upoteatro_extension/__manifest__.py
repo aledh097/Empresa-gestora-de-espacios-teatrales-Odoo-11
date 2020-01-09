@@ -8,7 +8,7 @@
     'version': '0.1',
     'depends': ['upoteatro'],
     'data': ['views/entradaindividual_view.xml','views/entradagrupal_view.xml','views/entrada_view.xml','views/autobus_view.xml'],
-    'demo': [],
-    #'demo': ['demo/datosPrueba.xml'],
+    #'demo': [],
+    'demo': ['demo/datosPrueba.xml'],
     'application': True,
 }
