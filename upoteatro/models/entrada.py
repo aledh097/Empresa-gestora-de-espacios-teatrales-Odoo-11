@@ -20,3 +20,16 @@ class entrada(models.Model):
     @api.depends('precio','precioConDescuento','porcentajeDescuento')
     def _calcularPrecio(self):
     	self.precioConDescuento = (1-(self.porcentajeDescuento/100))*self.precio
+
+    @api.onchange('porcentajeDescuento')
+    def onchange_porcentajeDescuento(self):
+    	resultado = {}
+    	if self.porcentajeDescuento > 100:
+    		resultado = {'value': {'porcentajeDescuento': 100},
+    		'warning': {'title': 'Máximo 100%',
+    					'message': 'El máximo de porcentaje de descuento es de 100%'}}
+    	elif self.porcentajeDescuento < 0:
+    		resultado = {'value': {'porcentajeDescuento': 0},
+    		'warning': {'title': 'Mínimo 0%',
+    					'message': 'El mínimo de porcentaje de descuento es de 0%'}}
+    	return resultado
