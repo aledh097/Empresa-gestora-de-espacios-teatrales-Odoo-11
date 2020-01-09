@@ -17,7 +17,7 @@
 			<field name="name">Entrada Individual</field>
 			<field name="model">upoteatro_extension.entradaindividual</field>
 			<field name="arch" type="xml">
-				<tree string="List of Entradas Grupales">
+				<tree string="List of Entradas Individuales">
 						<field name="tipoEntrada" />
 				</tree>
 			</field>

@@ -10,7 +10,6 @@
 						<field name="numeroPersonas" />
 						<field name="autobus" />
 					</group>
-
 				</form>
 			</field>
 		</record>
@@ -19,8 +18,8 @@
 			<field name="model">upoteatro_extension.entradagrupal</field>
 			<field name="arch" type="xml">
 				<tree string="List of Entradas Grupales">
-						<field name="numeroPersonas" />
-						<field name="autobus" />
+					<field name="numeroPersonas" />
+					<field name="autobus" />		
 				</tree>
 			</field>
 		</record>
