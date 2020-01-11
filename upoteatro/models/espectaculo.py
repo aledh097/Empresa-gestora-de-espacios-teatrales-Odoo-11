@@ -20,6 +20,7 @@ class espectaculo(models.Model):
     obras_ids = fields.Many2many('upoteatro.obra',string='Obras')
     companias_ids = fields.Many2many('upoteatro.compania',string='Compañías')
     state = fields.Selection([('propuesto','Propuesto'),('admitido','Admitido'),('rechazado','Rechazado')],'Estado',default='propuesto')
+    image = fields.Binary('Foto del Espectáculo',store=True) 
 
     @api.one
     def btn_submit_to_admitido(self):

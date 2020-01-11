@@ -32,6 +32,9 @@
 						<field name="obras_ids" />
 						<field name="companias_ids" />
 					</group>
+					<group>
+						<field name="image" widget="image" height="300" width="300" />
+					</group>
 				</form>
 			</field>
 		</record>
@@ -50,6 +53,7 @@
 					<field name="representacion_ids" />
 					<field name="obras_ids" />
 					<field name="companias_ids" />
+					<field name="image" widget="image" height="300" width="300" />
 				</tree>
 			</field>
 		</record>
