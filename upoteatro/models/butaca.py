@@ -16,6 +16,8 @@ class butaca(models.Model):
     teatro_id = fields.Many2one('upoteatro.teatro',string='Teatro',required=True)
     entradas_ids = fields.Many2many('upoteatro.entrada',string='Entradas')
 
+    _sql_constraints = [('butaca_asiento_unique', 'UNIQUE (asiento)', 'El número de asiento debe ser único')]
+
     @api.one
     @api.constrains('teatro_id')
     def _check_num_butacas(self):

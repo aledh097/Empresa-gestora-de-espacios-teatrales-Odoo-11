@@ -2,9 +2,9 @@
 
 from odoo import models, fields, api
 
-import logging
+#import logging
 
-_logger = logging.getLogger(__name__)
+#_logger = logging.getLogger(__name__)
     
 
 class entrada(models.Model):
@@ -38,7 +38,7 @@ class entrada(models.Model):
 
     @api.onchange('representacion_id')
     def _onchange_esAdaptada(self):
-    	_logger.debug("1- esAdaptada en entrada: " + str(self.esAdaptada) + " esAdaptada en representacion: " + str(self.representacion_id.esAdaptada))
+    	#_logger.debug("1- esAdaptada en entrada: " + str(self.esAdaptada) + " esAdaptada en representacion: " + str(self.representacion_id.esAdaptada))
     	if(self.esAdaptada==True) and (self.representacion_id.esAdaptada==False):
-    		_logger.debug("2- esAdaptada en entrada: " + str(self.esAdaptada) + " esAdaptada en representacion: " + str(self.representacion_id.esAdaptada))
+    		#_logger.debug("2- esAdaptada en entrada: " + str(self.esAdaptada) + " esAdaptada en representacion: " + str(self.representacion_id.esAdaptada))
     		self.representacion_id.write({'esAdaptada':True})
