@@ -19,16 +19,15 @@ Mira **Despliegue** para conocer como desplegar el proyecto.
 
 _Necesita tener instalado Odoo. Enlace de como instalar Odoo
 
-```http://angelmoya.es/blog/odoo/instalar-odoo-11-en-ubuntu-18-04/
-```
+[Instalar Odoo](http://angelmoya.es/blog/odoo/instalar-odoo-11-en-ubuntu-18-04/)
 
-### Instalación 🔧
+
+### Instalación Módulos 🔧
 
 _Para la instalación de los módulos seguir los pasos del siguiente enlace:_
 
+[Instalar módulos en Odoo](https://www.odoo.com/es_ES/forum/ayuda-1/question/how-to-install-new-module-in-odoo-11-129844)
 
-```https://www.odoo.com/es_ES/forum/ayuda-1/question/how-to-install-new-module-in-odoo-11-129844
-```
 
 ## Datos de pruebas ⚙️
 
