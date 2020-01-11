@@ -2,7 +2,7 @@
 
 _Proyecto final de la asignatura Tecnologías de Sistemas de Información de Ingeniería Informática en Sistemas de Información impartida en la Universidad Pablo de Olavide por Carlos Alberto Rodriguez Parrales. Proyecto realizado por el grupo 03.
 
-![Foto upoteatro+Odoo](https://raw.githubusercontent.com/aledh097/Empresa-gestora-de-espacios-teatrales-Odoo-11/Documentación/portadaUpoteatro.png)
+![Foto upoteatro+Odoo](https://raw.githubusercontent.com/aledh097/Empresa-gestora-de-espacios-teatrales-Odoo-11/master/Documentación/portadaUpoteatro.png)
 
 ## Comenzando 🚀
 
