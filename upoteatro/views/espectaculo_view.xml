@@ -104,6 +104,7 @@
 			<field name="name">upoteatro Espectáculo</field>
 			<field name="res_model">upoteatro.espectaculo</field>
 			<field name="view_mode">tree,form,graph</field>
+			<field name="search_view_id" ref="espectaculo_view_search"/>
 		</record>
 		<menuitem name="upoteatro" id="upoteatro"/>
 		<menuitem name="Espectáculo" id="espectaculo_submenu"

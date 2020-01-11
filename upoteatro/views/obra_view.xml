@@ -34,11 +34,28 @@
 			</field>
 		</record>
 
+		<!-- Search view -->
+
+		<record id="obra_view_search" model="ir.ui.view">
+			<field name="name">upoteatro.obra.search</field>
+			<field name="model">upoteatro.obra</field>
+			<field name="arch" type="xml">
+				<search string="Search">
+					<group expand="0" string="Group By">
+						<filter name="group_by_autor_obra"
+							string="Por autor de la obra" context="{'group_by':'autor'}" />
+					</group>
+
+				</search>
+			</field>
+		</record>
+
 
 		<record id="act_obra" model="ir.actions.act_window">
 			<field name="name">upoteatro Obra</field>
 			<field name="res_model">upoteatro.obra</field>
-			<field name="view_mode">tree,form,search</field>
+			<field name="view_mode">tree,form</field>
+			<field name="search_view_id" ref="obra_view_search"/>
 		</record>
 		<menuitem name="upoteatro" id="upoteatro"/>
 		<menuitem name="Obra" id="obra_submenu" parent="upoteatro"

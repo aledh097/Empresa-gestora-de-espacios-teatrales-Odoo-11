@@ -82,6 +82,7 @@
 			<field name="name">upoteatro Representación</field>
 			<field name="res_model">upoteatro.representacion</field>
 			<field name="view_mode">tree,form,calendar</field>
+			<field name="search_view_id" ref="representacion_view_search"/>
 		</record>
 		<menuitem name="upoteatro" id="upoteatro"/>
 		<menuitem name="Representación" id="representacion_submenu"
