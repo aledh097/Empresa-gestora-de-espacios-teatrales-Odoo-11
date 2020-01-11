@@ -23,6 +23,9 @@
 						<field name="entradasGrupales" />
 					</group>
 
+					<newline></newline> 
+					<button name="desasociarEntradas" string="Autbús roto" type="object"></button> 
+
 				</form>
 			</field>
 		</record>

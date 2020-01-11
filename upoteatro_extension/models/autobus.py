@@ -27,3 +27,7 @@ class autobus(models.Model):
     @api.one
     def btn_submit_to_noPreparado(self):
         self.write({'state':'noPreparado'})
+
+    def desasociarEntradas(self):
+    	# Si un autobús se avería debemos de desvincular sus entradas grupales asociadas.
+    	self.write({'entradasGrupales':[(5,)]})

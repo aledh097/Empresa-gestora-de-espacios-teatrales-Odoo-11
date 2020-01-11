@@ -15,6 +15,16 @@
 			<field name="autobus" ref="autobus1"></field>
 		</record>
 
+		<record id="entradagrupal2" model="upoteatro_extension.entradagrupal">
+			<field name="numeroPersonas">10</field>
+			<field name="autobus" ref="autobus1"></field>
+		</record>
+
+		<record id="entradagrupal3" model="upoteatro_extension.entradagrupal">
+			<field name="numeroPersonas">12</field>
+			<field name="autobus" ref="autobus1"></field>
+		</record>
+
 		<record id="entrada1" model="upoteatro.entrada">
 			<field name="representacion_id" ref="upoteatro.representacion1"></field>
 			<field name="haEntrado">false</field>
@@ -46,5 +56,26 @@
 			<field name="entradaGrupal_id" ref="entradagrupal1"></field>
 		</record>
 
+		<record id="entrada4" model="upoteatro.entrada">
+			<field name="representacion_id" ref="upoteatro.representacion4"></field>
+			<field name="haEntrado">false</field>
+			<field name="esAdaptada">false</field>
+			<field name="precio">15</field>
+			<field name="porcentajeDescuento">50</field>
+			<field name="butacas_ids"
+				eval="[(6, 0, [ref('upoteatro.butaca11'),ref('upoteatro.butaca12'),ref('upoteatro.butaca13'),ref('upoteatro.butaca14'),ref('upoteatro.butaca15'),ref('upoteatro.butaca16'),ref('upoteatro.butaca17'),ref('upoteatro.butaca18'),ref('upoteatro.butaca19'),ref('upoteatro.butaca20')])]" model="upoteatro.butaca"></field>
+			<field name="entradaGrupal_id" ref="entradagrupal2"></field>
+		</record>
+
+		<record id="entrada4" model="upoteatro.entrada">
+			<field name="representacion_id" ref="upoteatro.representacion4"></field>
+			<field name="haEntrado">false</field>
+			<field name="esAdaptada">false</field>
+			<field name="precio">15</field>
+			<field name="porcentajeDescuento">50</field>
+			<field name="butacas_ids"
+				eval="[(6, 0, [ref('upoteatro.butaca21'),ref('upoteatro.butaca22'),ref('upoteatro.butaca23'),ref('upoteatro.butaca24'),ref('upoteatro.butaca25'),ref('upoteatro.butaca26'),ref('upoteatro.butaca27'),ref('upoteatro.butaca28'),ref('upoteatro.butaca29'),ref('upoteatro.butaca30'),ref('upoteatro.butaca31'),ref('upoteatro.butaca32')])]" model="upoteatro.butaca"></field>
+			<field name="entradaGrupal_id" ref="entradagrupal3"></field>
+		</record>
 
 </odoo>
