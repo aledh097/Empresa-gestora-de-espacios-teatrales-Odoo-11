@@ -7,7 +7,7 @@
 			<field name="arch" type="xml">
 				<form string="Form of entradaindividual">
 					<group string="Entradas Individuales">
-						<field name="tipoEntrada" />
+						<field name="tipoentrada" />
 					</group>
 
 				</form>
@@ -18,7 +18,7 @@
 			<field name="model">upoteatro_extension.entradaindividual</field>
 			<field name="arch" type="xml">
 				<tree string="List of Entradas Individuales">
-						<field name="tipoEntrada" />
+						<field name="tipoentrada" />
 				</tree>
 			</field>
 		</record>

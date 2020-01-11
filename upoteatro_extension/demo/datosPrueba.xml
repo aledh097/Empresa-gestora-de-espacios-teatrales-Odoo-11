@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
 		<record id="entradaIndividual1" model="upoteatro_extension.entradaindividual">
-			<field name="tipoEntrada">normal</field>
+			<field name="tipoentrada">normal</field>
 		</record>
 		<record id="entradaIndividual2" model="upoteatro_extension.entradaindividual">
-			<field name="tipoEntrada">infantil</field>
+			<field name="tipoentrada">infantil</field>
 		</record>
 		<record id="autobus1" model="upoteatro_extension.autobus">
 			<field name="matricula">46760NAH</field>

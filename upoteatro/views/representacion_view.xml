@@ -12,8 +12,8 @@
 					<group string="Representación">
 						<field name="teatro_id" />
 						<field name="espectaculo_id" />
-						<field name="fechaHoraInicio" />
-						<field name="fechaHoraFin" />
+						<field name="fechahorainicio" />
+						<field name="fechahorafin" />
 						<field name="esAdaptada" />
 						<field name="interpretes_ids" />
 						<field name="entradas_ids" />
@@ -31,8 +31,8 @@
 				<tree string="Tree of representacion">
 					<field name="teatro_id" />
 					<field name="espectaculo_id" />
-					<field name="fechaHoraInicio" />
-					<field name="fechaHoraFin" />
+					<field name="fechahorainicio" />
+					<field name="fechahorafin" />
 					<field name="esAdaptada" />
 					<field name="interpretes_ids" />
 					<field name="entradas_ids" />
@@ -48,7 +48,7 @@
 			<field name="type">calendar</field>
 			<field name="arch" type="xml">
 				<calendar string="Vista Calendario" color="espectaculo_id"
-					date_start="fechaHoraInicio" date_stop="fechaHoraFin">
+					date_start="fechahorainicio" date_stop="fechahorafin">
 					<field name="espectaculo_id" />
 				</calendar>
 			</field>
@@ -62,16 +62,16 @@
 			<field name="arch" type="xml">
 				<search string="Search">
 					<filter name="today" string="Representaciones que actúan hoy"
-						domain="[('fechaHoraInicio','&gt;=',context_today().strftime('%%Y-%%m-%%d 00:00:00')), ('fechaHoraInicio','&lt;=',context_today().strftime('%%Y-%%m-%%d 23:59:59')), ]" />
+						domain="[('fechahorainicio','&gt;=',context_today().strftime('%%Y-%%m-%%d 00:00:00')), ('fechahorainicio','&lt;=',context_today().strftime('%%Y-%%m-%%d 23:59:59')), ]" />
 					<filter string="Representaciones adaptadas"
 						domain="[('esAdaptada', '=', True)]" />
 					<filter string="Representaciones NO adaptadas"
 						domain="[('esAdaptada', '=', False)]" />
 					<group expand="0" string="Group By">
 						<filter name="group_by_month" string="Agrupar por mes"
-							context="{'group_by': 'fechaHoraInicio:month'}" />
+							context="{'group_by': 'fechahorainicio:month'}" />
 						<filter name="group_by_year" string="Agrupar por año"
-							context="{'group_by': 'fechaHoraInicio:year'}" />
+							context="{'group_by': 'fechahorainicio:year'}" />
 					</group>
 				</search>
 			</field>

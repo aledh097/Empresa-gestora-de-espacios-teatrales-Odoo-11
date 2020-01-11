@@ -15,3 +15,5 @@ class entrada(models.Model):
 			raise models.ValidationError('No puede asignar una entrada individual a una entrada que ha comprado varias butacas.')
 		elif len(self.butacas_ids) == 1 and len(self.entradaGrupal_id)==1:
 			raise models.ValidationError('No puede asignar una entrada grupal a una entrada que ha comprado una sola butaca.')
+
+	

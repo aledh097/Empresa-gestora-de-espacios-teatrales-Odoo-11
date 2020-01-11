@@ -27,8 +27,8 @@
 		</record>
 
 		<record id="representacion2" model="upoteatro.representacion">
-			<field name="fechaHoraInicio">2020/01/04 18:55:20</field>
-			<field name="fechaHoraFin">2020/01/04 19:55:20</field>
+			<field name="fechahorainicio">2020/01/04 18:55:20</field>
+			<field name="fechahorafin">2020/01/04 19:55:20</field>
 			<field name="esAdaptada">true</field>
 			<field name="espectaculo_id" ref="espectaculo1"></field>
 			<field name="interpretes_ids" eval="[(6, 0, [interprete1])]"></field>
@@ -40,30 +40,30 @@
 		</record>
 
 		<record id="representacion1" model="upoteatro.representacion">
-			<field name="fechaHoraInicio">2020/01/01 21:54:37</field>
-			<field name="fechaHoraFin">2020/01/01 22:54:37</field>
+			<field name="fechahorainicio">2020/01/01 21:54:37</field>
+			<field name="fechahorafin">2020/01/01 22:54:37</field>
 			<field name="esAdaptada">false</field>
 			<field name="espectaculo_id" ref="espectaculo1"></field>
 		</record>
 
 		<record id="representacion2" model="upoteatro.representacion">
-			<field name="fechaHoraInicio">2020/01/04 18:55:20</field>
-			<field name="fechaHoraFin">2020/01/04 19:55:20</field>
+			<field name="fechahorainicio">2020/01/04 18:55:20</field>
+			<field name="fechahorafin">2020/01/04 19:55:20</field>
 			<field name="esAdaptada">true</field>
 			<field name="espectaculo_id" ref="espectaculo1"></field>
 			<field name="interpretes_ids" eval="[(6, 0, [interprete1])]"></field>
 		</record>
 
 		<record id="representacion3" model="upoteatro.representacion">
-			<field name="fechaHoraInicio">2020/01/07 15:55:47</field>
-			<field name="fechaHoraFin">2020/01/07 16:55:47</field>
+			<field name="fechahorainicio">2020/01/07 15:55:47</field>
+			<field name="fechahorafin">2020/01/07 16:55:47</field>
 			<field name="esAdaptada">false</field>
 			<field name="espectaculo_id" ref="espectaculo2"></field>
 		</record>
 
 		<record id="representacion4" model="upoteatro.representacion">
-			<field name="fechaHoraInicio">2020/01/16 18:56:14</field>
-			<field name="fechaHoraFin">2020/01/16 19:56:14</field>
+			<field name="fechahorainicio">2020/01/16 18:56:14</field>
+			<field name="fechahorafin">2020/01/16 19:56:14</field>
 			<field name="esAdaptada">false</field>
 			<field name="espectaculo_id" ref="espectaculo3"></field>
 		</record>
