@@ -19,6 +19,25 @@
 			<field name="categoria">teatro clásico</field>
 			<field name="gastos">20000</field>
 		</record>
+		
+		<record id="interprete1" model="upoteatro.interprete">
+			<field name="DNI">14608605V</field>
+			<field name="name">US company</field>
+			<field name="apellidos">Federico Carlos Dopico</field>
+		</record>
+
+		<record id="representacion2" model="upoteatro.representacion">
+			<field name="fechaHoraInicio">2020/01/04 18:55:20</field>
+			<field name="fechaHoraFin">2020/01/04 19:55:20</field>
+			<field name="esAdaptada">true</field>
+			<field name="espectaculo_id" ref="espectaculo1"></field>
+			<field name="interpretes_ids" eval="[(6, 0, [interprete1])]"></field>
+		</record>
+
+		<record id="interprete1" model="upoteatro.interprete">
+			<field name="representaciones_ids"
+				eval="[(6, 0, [representacion2])]"></field>
+		</record>
 
 		<record id="representacion1" model="upoteatro.representacion">
 			<field name="fechaHoraInicio">2020/01/01 21:54:37</field>
@@ -32,6 +51,7 @@
 			<field name="fechaHoraFin">2020/01/04 19:55:20</field>
 			<field name="esAdaptada">true</field>
 			<field name="espectaculo_id" ref="espectaculo1"></field>
+			<field name="interpretes_ids" eval="[(6, 0, [interprete1])]"></field>
 		</record>
 
 		<record id="representacion3" model="upoteatro.representacion">
@@ -81,17 +101,6 @@
 			<field name="espectaculos_ids" eval="[(6, 0, [espectaculo3])]"></field>
 		</record>
 
-		<record id="interprete1" model="upoteatro.interprete">
-			<field name="DNI">14608605V</field>
-			<field name="name">US company</field>
-			<field name="apellidos">Federico Carlos Dopico</field>
-			<field name="representaciones_ids"
-				eval="[(6, 0, [representacion1])]"></field>
-		</record>
-
-		<record id="representacion2" model="upoteatro.representacion">
-			<field name="interpretes_ids" eval="[(6, 0, [interprete1])]"></field>
-		</record>
 
 		<record id="idioma1" model="upoteatro.idioma">
 			<field name="name">Inglés</field>

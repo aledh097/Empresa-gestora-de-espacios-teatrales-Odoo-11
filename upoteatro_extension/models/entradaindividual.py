@@ -11,3 +11,5 @@ class entradaindividual(models.Model):
                                      ('infantil','Infantil'),
                                      ('estudiante','Estudiante'),
                                      ('normal','Normal'),],'Tipo de Entrada',required=True)
+
+    _sql_constraints = [('entradaindividual_tipoEntrada_unique','UNIQUE (tipoEntrada)','El tipo de entrada debe ser único')]
