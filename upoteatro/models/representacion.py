@@ -27,6 +27,6 @@ class representacion(models.Model):
     @api.constrains('esAdaptada','interpretes_ids')
     def _check_tiene_interprete(self):
         if(self.esAdaptada == True and len(self.interpretes_ids) == 0):
-            raise models.ValidationError('Por favor añada un interprete de signos a la representación, ya que es adaptada.')
+            raise models.ValidationError('Por favor añada un interprete de signos a la representación, ya que es adaptada.\nSi este mensaje lo estas leyendo desde la creación de una entrada, por favor dirigase a la representación afectada, asegúrese que la casilla representación adaptada está marcada y que tiene un intérprete asignado.')
         elif(self.esAdaptada == False and len(self.interpretes_ids) > 0):
             raise models.ValidationError('Por favor no puede añadir un interprete de signos a una representación no adaptada.')

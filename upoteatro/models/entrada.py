@@ -2,7 +2,10 @@
 
 from odoo import models, fields, api
 
-precioBaseTicket = 30
+import logging
+
+_logger = logging.getLogger(__name__)
+    
 
 class entrada(models.Model):
     _name = 'upoteatro.entrada'
@@ -32,3 +35,10 @@ class entrada(models.Model):
     		'warning': {'title': 'Mínimo 0%',
     					'message': 'El mínimo de porcentaje de descuento es de 0%'}}
     	return resultado
+
+    @api.onchange('representacion_id')
+    def _onchange_esAdaptada(self):
+    	_logger.debug("1- esAdaptada en entrada: " + str(self.esAdaptada) + " esAdaptada en representacion: " + str(self.representacion_id.esAdaptada))
+    	if(self.esAdaptada==True) and (self.representacion_id.esAdaptada==False):
+    		_logger.debug("2- esAdaptada en entrada: " + str(self.esAdaptada) + " esAdaptada en representacion: " + str(self.representacion_id.esAdaptada))
+    		self.representacion_id.write({'esAdaptada':True})
