@@ -8,7 +8,6 @@ class entrada(models.Model):
     _name = 'upoteatro.entrada'
     _rec_name = 'representacion_id'
 
-    haEntrado = fields.Boolean ('Ha entrado',required=True, default=False)
     esAdaptada = fields.Boolean('Es adaptada',required=True)
     precio = fields.Float('Precio total', required=True)
     precioConDescuento = fields.Float(compute='_calcularPrecio', string='Precio total con descuento', store=True)

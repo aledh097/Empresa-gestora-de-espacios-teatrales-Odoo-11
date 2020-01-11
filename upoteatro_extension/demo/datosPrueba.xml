@@ -27,7 +27,6 @@
 
 		<record id="entrada1" model="upoteatro.entrada">
 			<field name="representacion_id" ref="upoteatro.representacion1"></field>
-			<field name="haEntrado">false</field>
 			<field name="esAdaptada">false</field>
 			<field name="precio">22</field>
 			<field name="porcentajeDescuento">25</field>
@@ -37,7 +36,6 @@
 
 		<record id="entrada2" model="upoteatro.entrada">
 			<field name="representacion_id" ref="upoteatro.representacion1"></field>
-			<field name="haEntrado">true</field>
 			<field name="esAdaptada">false</field>
 			<field name="precio">22</field>
 			<field name="porcentajeDescuento">25</field>
@@ -47,7 +45,6 @@
 
 		<record id="entrada3" model="upoteatro.entrada">
 			<field name="representacion_id" ref="upoteatro.representacion4"></field>
-			<field name="haEntrado">false</field>
 			<field name="esAdaptada">true</field>
 			<field name="precio">15</field>
 			<field name="porcentajeDescuento">50</field>
@@ -58,7 +55,6 @@
 
 		<record id="entrada4" model="upoteatro.entrada">
 			<field name="representacion_id" ref="upoteatro.representacion4"></field>
-			<field name="haEntrado">false</field>
 			<field name="esAdaptada">false</field>
 			<field name="precio">15</field>
 			<field name="porcentajeDescuento">50</field>
@@ -67,9 +63,8 @@
 			<field name="entradaGrupal_id" ref="entradagrupal2"></field>
 		</record>
 
-		<record id="entrada4" model="upoteatro.entrada">
+		<record id="entrada5" model="upoteatro.entrada">
 			<field name="representacion_id" ref="upoteatro.representacion4"></field>
-			<field name="haEntrado">false</field>
 			<field name="esAdaptada">false</field>
 			<field name="precio">15</field>
 			<field name="porcentajeDescuento">50</field>

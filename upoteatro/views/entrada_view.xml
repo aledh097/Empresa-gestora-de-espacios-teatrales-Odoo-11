@@ -10,7 +10,6 @@
 			<field name="arch" type="xml">
 				<form string="Form of entrada">
 					<group string="Entrada">
-						<field name="haEntrado" />
 						<field name="esAdaptada" />
 						<field name="precio" />
 						<field name="precioConDescuento" />
@@ -29,7 +28,6 @@
 			<field name="model">upoteatro.entrada</field>
 			<field name="arch" type="xml">
 				<tree string="Tree of entrada">
-					<field name="haEntrado" />
 					<field name="esAdaptada" />
 					<field name="precio" />
 					<field name="precioConDescuento" />
